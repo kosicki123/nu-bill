@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		204B47081B3A248100DB81DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 204B47071B3A248100DB81DF /* main.m */; };
+		204B47131B3A248100DB81DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204B47121B3A248100DB81DF /* Images.xcassets */; };
+		204B472F1B3A2BF800DB81DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 204B472E1B3A2BF800DB81DF /* AppDelegate.m */; };
+		204B473E1B3A2CB900DB81DF /* NBModelConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 204B473D1B3A2CB900DB81DF /* NBModelConverter.m */; };
+		204B47521B3A316600DB81DF /* NBModelConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 204B47511B3A316600DB81DF /* NBModelConverterTests.m */; };
+		204B47591B3A360700DB81DF /* NBBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 204B47581B3A360700DB81DF /* NBBaseModel.m */; };
+		204B475C1B3A382200DB81DF /* NBBill.m in Sources */ = {isa = PBXBuildFile; fileRef = 204B475B1B3A382200DB81DF /* NBBill.m */; };
+		204B475F1B3A39C200DB81DF /* NBSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 204B475E1B3A39C200DB81DF /* NBSummary.m */; };
+		204B47621B3A3E3300DB81DF /* NBBillItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 204B47611B3A3E3300DB81DF /* NBBillItem.m */; };
+		207C03731B3A47D80067D14F /* NBBillTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03721B3A47D80067D14F /* NBBillTests.m */; };
+		207C03751B3A4AB00067D14F /* NBSummaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03741B3A4AB00067D14F /* NBSummaryTests.m */; };
+		207C03771B3A50DA0067D14F /* NBBillItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03761B3A50DA0067D14F /* NBBillItemTests.m */; };
+		207C037F1B3A568C0067D14F /* NBDateConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C037E1B3A568C0067D14F /* NBDateConverter.m */; };
+		207C03821B3A573B0067D14F /* NBBaseModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03811B3A573B0067D14F /* NBBaseModelTests.m */; };
+		207C03851B3A57FD0067D14F /* NBBillsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03841B3A57FD0067D14F /* NBBillsController.m */; };
+		207C038B1B3A59010067D14F /* NBNuBankClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C038A1B3A59010067D14F /* NBNuBankClient.m */; };
+		207C038E1B3A5E810067D14F /* NBBillResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C038D1B3A5E810067D14F /* NBBillResult.m */; };
+		207C03901B3A5F0C0067D14F /* NBBillResultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C038F1B3A5F0C0067D14F /* NBBillResultTests.m */; };
+		207C03931B3A6AFB0067D14F /* NBBillsControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03921B3A6AFB0067D14F /* NBBillsControllerTests.m */; };
+		61FEE8D623BB02E3E49A8CC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D88B3038653F0278B40230 /* libPods.a */; };
+		8EC86C028876953155D786F8 /* libPods-nu-bill-unit-tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		204B47491B3A302000DB81DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 204B46FA1B3A248100DB81DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204B47011B3A248100DB81DF;
+			remoteInfo = "nu-bill";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		204B47021B3A248100DB81DF /* nu-bill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nu-bill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		204B47061B3A248100DB81DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204B47071B3A248100DB81DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		204B47121B3A248100DB81DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		204B472D1B3A2BF800DB81DF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		204B472E1B3A2BF800DB81DF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		204B473C1B3A2CB900DB81DF /* NBModelConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBModelConverter.h; sourceTree = "<group>"; };
+		204B473D1B3A2CB900DB81DF /* NBModelConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBModelConverter.m; sourceTree = "<group>"; };
+		204B47431B3A301F00DB81DF /* nu-bill-unit-tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nu-bill-unit-tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		204B47461B3A302000DB81DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204B47511B3A316600DB81DF /* NBModelConverterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBModelConverterTests.m; sourceTree = "<group>"; };
+		204B47571B3A360700DB81DF /* NBBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseModel.h; sourceTree = "<group>"; };
+		204B47581B3A360700DB81DF /* NBBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseModel.m; sourceTree = "<group>"; };
+		204B475A1B3A382200DB81DF /* NBBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBill.h; sourceTree = "<group>"; };
+		204B475B1B3A382200DB81DF /* NBBill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBill.m; sourceTree = "<group>"; };
+		204B475D1B3A39C200DB81DF /* NBSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSummary.h; sourceTree = "<group>"; };
+		204B475E1B3A39C200DB81DF /* NBSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBSummary.m; sourceTree = "<group>"; };
+		204B47601B3A3E3300DB81DF /* NBBillItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBillItem.h; sourceTree = "<group>"; };
+		204B47611B3A3E3300DB81DF /* NBBillItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillItem.m; sourceTree = "<group>"; };
+		207C03721B3A47D80067D14F /* NBBillTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillTests.m; sourceTree = "<group>"; };
+		207C03741B3A4AB00067D14F /* NBSummaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBSummaryTests.m; sourceTree = "<group>"; };
+		207C03761B3A50DA0067D14F /* NBBillItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillItemTests.m; sourceTree = "<group>"; };
+		207C037D1B3A568C0067D14F /* NBDateConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBDateConverter.h; sourceTree = "<group>"; };
+		207C037E1B3A568C0067D14F /* NBDateConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBDateConverter.m; sourceTree = "<group>"; };
+		207C03811B3A573B0067D14F /* NBBaseModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseModelTests.m; sourceTree = "<group>"; };
+		207C03831B3A57FD0067D14F /* NBBillsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBillsController.h; sourceTree = "<group>"; };
+		207C03841B3A57FD0067D14F /* NBBillsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillsController.m; sourceTree = "<group>"; };
+		207C03861B3A58700067D14F /* NBConnectionBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBConnectionBlocks.h; sourceTree = "<group>"; };
+		207C03891B3A59010067D14F /* NBNuBankClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNuBankClient.h; sourceTree = "<group>"; };
+		207C038A1B3A59010067D14F /* NBNuBankClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNuBankClient.m; sourceTree = "<group>"; };
+		207C038C1B3A5E810067D14F /* NBBillResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBillResult.h; sourceTree = "<group>"; };
+		207C038D1B3A5E810067D14F /* NBBillResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillResult.m; sourceTree = "<group>"; };
+		207C038F1B3A5F0C0067D14F /* NBBillResultTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillResultTests.m; sourceTree = "<group>"; };
+		207C03921B3A6AFB0067D14F /* NBBillsControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillsControllerTests.m; sourceTree = "<group>"; };
+		34B329EAF08D6BDF239B3070 /* Pods-nu-bill-unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nu-bill-unit-tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nu-bill-unit-tests/Pods-nu-bill-unit-tests.release.xcconfig"; sourceTree = "<group>"; };
+		48D88B3038653F0278B40230 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nu-bill-unit-tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CF16325BA2831EC7C6F0A5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D7556958F0EE91761EBA4BD4 /* Pods-nu-bill-unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nu-bill-unit-tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nu-bill-unit-tests/Pods-nu-bill-unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5F22746475C03823D924EA7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		204B46FF1B3A248100DB81DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FEE8D623BB02E3E49A8CC0 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204B47401B3A301F00DB81DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC86C028876953155D786F8 /* libPods-nu-bill-unit-tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		204B46F91B3A248100DB81DF = {
+			isa = PBXGroup;
+			children = (
+				204B47041B3A248100DB81DF /* nu-bill */,
+				204B47441B3A302000DB81DF /* nu-bill-unit-tests */,
+				204B47031B3A248100DB81DF /* Products */,
+				4F33DFA5FF1C4853144CB2CD /* Pods */,
+				C9F8344EA0F573450D050AD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		204B47031B3A248100DB81DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				204B47021B3A248100DB81DF /* nu-bill.app */,
+				204B47431B3A301F00DB81DF /* nu-bill-unit-tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		204B47041B3A248100DB81DF /* nu-bill */ = {
+			isa = PBXGroup;
+			children = (
+				204B472B1B3A2BF800DB81DF /* classes */,
+				204B47051B3A248100DB81DF /* Supporting Files */,
+				204B47121B3A248100DB81DF /* Images.xcassets */,
+			);
+			path = "nu-bill";
+			sourceTree = "<group>";
+		};
+		204B47051B3A248100DB81DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				204B47061B3A248100DB81DF /* Info.plist */,
+				204B47071B3A248100DB81DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		204B472B1B3A2BF800DB81DF /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				204B472C1B3A2BF800DB81DF /* application */,
+				207C03781B3A54730067D14F /* controllers */,
+				204B47351B3A2C2700DB81DF /* models */,
+				204B47361B3A2C2700DB81DF /* viewcontrollers */,
+				204B47371B3A2C2700DB81DF /* views */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		204B472C1B3A2BF800DB81DF /* application */ = {
+			isa = PBXGroup;
+			children = (
+				204B472D1B3A2BF800DB81DF /* AppDelegate.h */,
+				204B472E1B3A2BF800DB81DF /* AppDelegate.m */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		204B47351B3A2C2700DB81DF /* models */ = {
+			isa = PBXGroup;
+			children = (
+				204B47561B3A35FF00DB81DF /* base */,
+				204B473B1B3A2CB100DB81DF /* converter */,
+				204B475A1B3A382200DB81DF /* NBBill.h */,
+				204B475B1B3A382200DB81DF /* NBBill.m */,
+				204B47601B3A3E3300DB81DF /* NBBillItem.h */,
+				204B47611B3A3E3300DB81DF /* NBBillItem.m */,
+				207C038C1B3A5E810067D14F /* NBBillResult.h */,
+				207C038D1B3A5E810067D14F /* NBBillResult.m */,
+				204B475D1B3A39C200DB81DF /* NBSummary.h */,
+				204B475E1B3A39C200DB81DF /* NBSummary.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		204B47361B3A2C2700DB81DF /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		204B47371B3A2C2700DB81DF /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		204B473B1B3A2CB100DB81DF /* converter */ = {
+			isa = PBXGroup;
+			children = (
+				207C037D1B3A568C0067D14F /* NBDateConverter.h */,
+				207C037E1B3A568C0067D14F /* NBDateConverter.m */,
+				204B473C1B3A2CB900DB81DF /* NBModelConverter.h */,
+				204B473D1B3A2CB900DB81DF /* NBModelConverter.m */,
+			);
+			path = converter;
+			sourceTree = "<group>";
+		};
+		204B47441B3A302000DB81DF /* nu-bill-unit-tests */ = {
+			isa = PBXGroup;
+			children = (
+				204B474E1B3A315400DB81DF /* classes */,
+				204B47451B3A302000DB81DF /* Supporting Files */,
+			);
+			path = "nu-bill-unit-tests";
+			sourceTree = "<group>";
+		};
+		204B47451B3A302000DB81DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				204B47461B3A302000DB81DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		204B474E1B3A315400DB81DF /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				207C03911B3A6AF10067D14F /* controllers */,
+				204B474F1B3A315400DB81DF /* models */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		204B474F1B3A315400DB81DF /* models */ = {
+			isa = PBXGroup;
+			children = (
+				207C03801B3A57280067D14F /* base */,
+				204B47501B3A315400DB81DF /* converter */,
+				207C03721B3A47D80067D14F /* NBBillTests.m */,
+				207C03761B3A50DA0067D14F /* NBBillItemTests.m */,
+				207C038F1B3A5F0C0067D14F /* NBBillResultTests.m */,
+				207C03741B3A4AB00067D14F /* NBSummaryTests.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		204B47501B3A315400DB81DF /* converter */ = {
+			isa = PBXGroup;
+			children = (
+				204B47511B3A316600DB81DF /* NBModelConverterTests.m */,
+			);
+			path = converter;
+			sourceTree = "<group>";
+		};
+		204B47561B3A35FF00DB81DF /* base */ = {
+			isa = PBXGroup;
+			children = (
+				204B47571B3A360700DB81DF /* NBBaseModel.h */,
+				204B47581B3A360700DB81DF /* NBBaseModel.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		207C03781B3A54730067D14F /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				207C03871B3A58990067D14F /* base */,
+				207C03881B3A58F20067D14F /* client */,
+				207C03861B3A58700067D14F /* NBConnectionBlocks.h */,
+				207C03831B3A57FD0067D14F /* NBBillsController.h */,
+				207C03841B3A57FD0067D14F /* NBBillsController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		207C03801B3A57280067D14F /* base */ = {
+			isa = PBXGroup;
+			children = (
+				207C03811B3A573B0067D14F /* NBBaseModelTests.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		207C03871B3A58990067D14F /* base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		207C03881B3A58F20067D14F /* client */ = {
+			isa = PBXGroup;
+			children = (
+				207C03891B3A59010067D14F /* NBNuBankClient.h */,
+				207C038A1B3A59010067D14F /* NBNuBankClient.m */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		207C03911B3A6AF10067D14F /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				207C03921B3A6AFB0067D14F /* NBBillsControllerTests.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		4F33DFA5FF1C4853144CB2CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5F22746475C03823D924EA7 /* Pods.debug.xcconfig */,
+				C4CF16325BA2831EC7C6F0A5 /* Pods.release.xcconfig */,
+				D7556958F0EE91761EBA4BD4 /* Pods-nu-bill-unit-tests.debug.xcconfig */,
+				34B329EAF08D6BDF239B3070 /* Pods-nu-bill-unit-tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9F8344EA0F573450D050AD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48D88B3038653F0278B40230 /* libPods.a */,
+				BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		204B47011B3A248100DB81DF /* nu-bill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204B47251B3A248100DB81DF /* Build configuration list for PBXNativeTarget "nu-bill" */;
+			buildPhases = (
+				7124705929B0B305F678AD21 /* Check Pods Manifest.lock */,
+				204B46FE1B3A248100DB81DF /* Sources */,
+				204B46FF1B3A248100DB81DF /* Frameworks */,
+				204B47001B3A248100DB81DF /* Resources */,
+				2E37BAFF4D3782972A5A5915 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nu-bill";
+			productName = "nu-bill";
+			productReference = 204B47021B3A248100DB81DF /* nu-bill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		204B47421B3A301F00DB81DF /* nu-bill-unit-tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204B474B1B3A302000DB81DF /* Build configuration list for PBXNativeTarget "nu-bill-unit-tests" */;
+			buildPhases = (
+				103C3B968938DB6299915C57 /* Check Pods Manifest.lock */,
+				204B473F1B3A301F00DB81DF /* Sources */,
+				204B47401B3A301F00DB81DF /* Frameworks */,
+				204B47411B3A301F00DB81DF /* Resources */,
+				F8821A339F3B2C53FFFB0556 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204B474A1B3A302000DB81DF /* PBXTargetDependency */,
+			);
+			name = "nu-bill-unit-tests";
+			productName = "nu-bill-unit-tests";
+			productReference = 204B47431B3A301F00DB81DF /* nu-bill-unit-tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		204B46FA1B3A248100DB81DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NB;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = nubank;
+				TargetAttributes = {
+					204B47011B3A248100DB81DF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					204B47421B3A301F00DB81DF = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 204B47011B3A248100DB81DF;
+					};
+				};
+			};
+			buildConfigurationList = 204B46FD1B3A248100DB81DF /* Build configuration list for PBXProject "nu-bill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 204B46F91B3A248100DB81DF;
+			productRefGroup = 204B47031B3A248100DB81DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				204B47011B3A248100DB81DF /* nu-bill */,
+				204B47421B3A301F00DB81DF /* nu-bill-unit-tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		204B47001B3A248100DB81DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204B47131B3A248100DB81DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204B47411B3A301F00DB81DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		103C3B968938DB6299915C57 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E37BAFF4D3782972A5A5915 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7124705929B0B305F678AD21 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8821A339F3B2C53FFFB0556 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nu-bill-unit-tests/Pods-nu-bill-unit-tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		204B46FE1B3A248100DB81DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204B47621B3A3E3300DB81DF /* NBBillItem.m in Sources */,
+				207C03851B3A57FD0067D14F /* NBBillsController.m in Sources */,
+				204B47591B3A360700DB81DF /* NBBaseModel.m in Sources */,
+				204B472F1B3A2BF800DB81DF /* AppDelegate.m in Sources */,
+				207C038E1B3A5E810067D14F /* NBBillResult.m in Sources */,
+				207C037F1B3A568C0067D14F /* NBDateConverter.m in Sources */,
+				204B473E1B3A2CB900DB81DF /* NBModelConverter.m in Sources */,
+				204B475C1B3A382200DB81DF /* NBBill.m in Sources */,
+				207C038B1B3A59010067D14F /* NBNuBankClient.m in Sources */,
+				204B475F1B3A39C200DB81DF /* NBSummary.m in Sources */,
+				204B47081B3A248100DB81DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204B473F1B3A301F00DB81DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207C03751B3A4AB00067D14F /* NBSummaryTests.m in Sources */,
+				207C03821B3A573B0067D14F /* NBBaseModelTests.m in Sources */,
+				207C03771B3A50DA0067D14F /* NBBillItemTests.m in Sources */,
+				207C03901B3A5F0C0067D14F /* NBBillResultTests.m in Sources */,
+				207C03731B3A47D80067D14F /* NBBillTests.m in Sources */,
+				207C03931B3A6AFB0067D14F /* NBBillsControllerTests.m in Sources */,
+				204B47521B3A316600DB81DF /* NBModelConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		204B474A1B3A302000DB81DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204B47011B3A248100DB81DF /* nu-bill */;
+			targetProxy = 204B47491B3A302000DB81DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		204B47231B3A248100DB81DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		204B47241B3A248100DB81DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		204B47261B3A248100DB81DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F22746475C03823D924EA7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "nu-bill/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		204B47271B3A248100DB81DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4CF16325BA2831EC7C6F0A5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "nu-bill/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		204B474C1B3A302000DB81DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7556958F0EE91761EBA4BD4 /* Pods-nu-bill-unit-tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nu-bill-unit-tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nu-bill.app/nu-bill";
+			};
+			name = Debug;
+		};
+		204B474D1B3A302000DB81DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B329EAF08D6BDF239B3070 /* Pods-nu-bill-unit-tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nu-bill-unit-tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nu-bill.app/nu-bill";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		204B46FD1B3A248100DB81DF /* Build configuration list for PBXProject "nu-bill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B47231B3A248100DB81DF /* Debug */,
+				204B47241B3A248100DB81DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204B47251B3A248100DB81DF /* Build configuration list for PBXNativeTarget "nu-bill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B47261B3A248100DB81DF /* Debug */,
+				204B47271B3A248100DB81DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204B474B1B3A302000DB81DF /* Build configuration list for PBXNativeTarget "nu-bill-unit-tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B474C1B3A302000DB81DF /* Debug */,
+				204B474D1B3A302000DB81DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 204B46FA1B3A248100DB81DF /* Project object */;
+}
