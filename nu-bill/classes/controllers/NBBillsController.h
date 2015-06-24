@@ -9,6 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "NBConnectionBlocks.h"
 
+extern NSString *NBBillsControllerErrorDomain;
+
+typedef NS_ENUM(NSUInteger, NBBillsControllerErrorCode) {
+    NBBillsControllerErrorCodeConnectionProblem,
+    NBBillsControllerErrorCodeBadRequest,
+    NBBillsControllerErrorCodeServerError,
+};
+
 @interface NBBillsController : NSObject
 
 + (NSURLSessionTask *)loadBillsWithCompletionBlock:(NBArrayCompletionBlock)completionBlock;
