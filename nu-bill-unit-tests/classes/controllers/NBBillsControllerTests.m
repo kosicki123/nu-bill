@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
+#import <BlocksKit/NSArray+BlocksKit.h>
 #import "OHHTTPStubs.h"
 #import "NBBillsController.h"
+#import "NBBillResult.h"
+#import "NBBill.h"
 
 @interface NBBillsControllerTests : XCTestCase
 
@@ -95,6 +98,29 @@
         [task cancel];
     }];
     
+}
+
+- (void)testShouldBeAbleToParseAndReturnBills {
+    [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
+        return [request.URL.absoluteString rangeOfString:@"bill/bill_new.json"].location != NSNotFound;
+    } withStubResponse:^OHHTTPStubsResponse*(NSURLRequest *request) {
+        return [OHHTTPStubsResponse responseWithFileAtPath:OHPathForFile(@"bill_new.json",self.class)
+                                                statusCode:200 headers:@{@"Content-Type":@"application/json"}];
+    }];
+    
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Should be able to parse and return bills"];
+    NSURLSessionTask *task = [NBBillsController loadBillsWithCompletionBlock:^(NSArray *array, NSError *error) {
+        XCTAssertNil(error, @"Should be able to parse bills without an error");
+        XCTAssertEqual(4, array.count, @"Should be able to parse all 4 bills inside the fixture");
+        [array bk_each:^(id obj) {
+            XCTAssertTrue([obj isKindOfClass:[NBBill class]], @"Should have only NBBill objects inside response");
+        }];
+        [expectation fulfill];
+    }];
+    
+    [self waitForExpectationsWithTimeout:task.originalRequest.timeoutInterval handler:^(NSError *error) {
+        [task cancel];
+    }];
 }
 
 @end

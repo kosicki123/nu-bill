@@ -28,4 +28,11 @@
     XCTAssertNotNil(billResult, @"Bill result should not be empty when a valid object is sent");
     XCTAssertNotNil(billResult.bill, @"Bill result should not be empty when a valid object is sent");
 }
+
+- (void)testShouldReturnEmptyArrayWhenExtractingBillsFromResultWithNilArray {
+    NSArray *bills = [NBBillResult extractBillsFromResults:nil];
+    XCTAssertNotNil(bills, @"Should not be nil when extracting nil data");
+    XCTAssertEqual(0, bills.count, @"Should return an empty array when extracting nil data");
+}
+
 @end

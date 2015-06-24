@@ -13,4 +13,6 @@
 
 @property (nonatomic, readonly, copy) NBBill *bill;
 
++ (NSArray *)extractBillsFromResults:(NSArray *)billResults;
+
 @end

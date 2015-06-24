@@ -9,6 +9,9 @@
 #import "NBBillsController.h"
 #import "NBNuBankClient.h"
 
+#import "NBModelConverter.h"
+#import "NBBillResult.h"
+
 NSString *NBBillsControllerErrorDomain = @"br.com.nubank:NBBillsControllerErrorDomain";
 
 @implementation NBBillsController
@@ -17,7 +20,10 @@ NSString *NBBillsControllerErrorDomain = @"br.com.nubank:NBBillsControllerErrorD
     return [[NBNuBankClient sharedClient] GET:@"bill/bill_new.json"
                                    parameters:nil
                                       success:^(NSURLSessionDataTask *task, id responseObject) {
-                                          if (completionBlock) completionBlock(responseObject, nil);
+                                          NSArray *billResults = [NBModelConverter convertModelsFromJSON:responseObject
+                                                                                                   class:[NBBillResult class]];
+                                          NSArray *bills = [NBBillResult extractBillsFromResults:billResults];
+                                          if (completionBlock) completionBlock(bills, nil);
                                       } failure:^(NSURLSessionDataTask *task, NSError *error) {
                                           if ([error.domain isEqualToString:NSURLErrorDomain]) {
                                               

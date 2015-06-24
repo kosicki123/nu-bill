@@ -7,6 +7,7 @@
 //
 
 #import "NBBillResult.h"
+#import <BlocksKit/NSArray+BlocksKit.h>
 
 @implementation NBBillResult
 
@@ -18,6 +19,18 @@
 
 + (NSValueTransformer *)billJSONTransformer {
     return [MTLJSONAdapter dictionaryTransformerWithModelClass:[NBBill class]];
+}
+
+#pragma mark - public methods
+
++ (NSArray *)extractBillsFromResults:(NSArray *)billResults {
+    if (!billResults || billResults.count == 0) {
+        return @[];
+    }
+    
+    return [billResults bk_map:^NBBill *(NBBillResult *result) {
+        return result.bill;
+    }];
 }
 
 #pragma mark - NSObject
