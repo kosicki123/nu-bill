@@ -28,6 +28,7 @@
 		207C03931B3A6AFB0067D14F /* NBBillsControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03921B3A6AFB0067D14F /* NBBillsControllerTests.m */; };
 		61FEE8D623BB02E3E49A8CC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D88B3038653F0278B40230 /* libPods.a */; };
 		8EC86C028876953155D786F8 /* libPods-nu-bill-unit-tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */; };
+		F478E1F61B3B36E3000A842C /* bill_new.json in Resources */ = {isa = PBXBuildFile; fileRef = F478E1F51B3B36E3000A842C /* bill_new.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		C4CF16325BA2831EC7C6F0A5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D7556958F0EE91761EBA4BD4 /* Pods-nu-bill-unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nu-bill-unit-tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nu-bill-unit-tests/Pods-nu-bill-unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5F22746475C03823D924EA7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F478E1F51B3B36E3000A842C /* bill_new.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bill_new.json; path = ../../../../../Desktop/bill_new.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				204B474E1B3A315400DB81DF /* classes */,
+				F478E1F41B3B36CC000A842C /* fixtures */,
 				204B47451B3A302000DB81DF /* Supporting Files */,
 			);
 			path = "nu-bill-unit-tests";
@@ -325,6 +328,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F478E1F41B3B36CC000A842C /* fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				F478E1F51B3B36E3000A842C /* bill_new.json */,
+			);
+			path = fixtures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -418,6 +429,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F478E1F61B3B36E3000A842C /* bill_new.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
