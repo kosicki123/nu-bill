@@ -8,6 +8,8 @@
 
 #import "AFHTTPSessionManager.h"
 
+extern NSString *NBNuBankClientURL;
+
 @interface NBNuBankClient : AFHTTPSessionManager
 
 + (instancetype)sharedClient;

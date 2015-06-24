@@ -29,6 +29,7 @@
 		61FEE8D623BB02E3E49A8CC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D88B3038653F0278B40230 /* libPods.a */; };
 		8EC86C028876953155D786F8 /* libPods-nu-bill-unit-tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */; };
 		F478E1F61B3B36E3000A842C /* bill_new.json in Resources */ = {isa = PBXBuildFile; fileRef = F478E1F51B3B36E3000A842C /* bill_new.json */; };
+		F4E1936C1B3B460B005C393B /* NBNuBankClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E1936B1B3B460B005C393B /* NBNuBankClientTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		D7556958F0EE91761EBA4BD4 /* Pods-nu-bill-unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nu-bill-unit-tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nu-bill-unit-tests/Pods-nu-bill-unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5F22746475C03823D924EA7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F478E1F51B3B36E3000A842C /* bill_new.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bill_new.json; path = ../../../../../Desktop/bill_new.json; sourceTree = "<group>"; };
+		F4E1936B1B3B460B005C393B /* NBNuBankClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNuBankClientTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +305,7 @@
 		207C03911B3A6AF10067D14F /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F4E1936A1B3B45FA005C393B /* client */,
 				207C03921B3A6AFB0067D14F /* NBBillsControllerTests.m */,
 			);
 			path = controllers;
@@ -334,6 +337,14 @@
 				F478E1F51B3B36E3000A842C /* bill_new.json */,
 			);
 			path = fixtures;
+			sourceTree = "<group>";
+		};
+		F4E1936A1B3B45FA005C393B /* client */ = {
+			isa = PBXGroup;
+			children = (
+				F4E1936B1B3B460B005C393B /* NBNuBankClientTests.m */,
+			);
+			path = client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -522,6 +533,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				207C03751B3A4AB00067D14F /* NBSummaryTests.m in Sources */,
+				F4E1936C1B3B460B005C393B /* NBNuBankClientTests.m in Sources */,
 				207C03821B3A573B0067D14F /* NBBaseModelTests.m in Sources */,
 				207C03771B3A50DA0067D14F /* NBBillItemTests.m in Sources */,
 				207C03901B3A5F0C0067D14F /* NBBillResultTests.m in Sources */,
