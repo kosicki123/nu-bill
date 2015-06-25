@@ -18,7 +18,7 @@
              @"state" : @"state",
              @"barcode" : @"barcode",
              @"writableBarcode" : @"linha_digitavel",
-             @"items" : @"items",
+             @"items" : @"line_items",
              @"summary" : @"summary"};
 }
 

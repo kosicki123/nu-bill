@@ -30,9 +30,25 @@
 		207C039C1B3B7E720067D14F /* NBBillsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C039B1B3B7E720067D14F /* NBBillsViewController.m */; };
 		207C03A31B3B7EDC0067D14F /* DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03A01B3B7EDC0067D14F /* DZNSegmentedControl.m */; };
 		207C03A41B3B7EDC0067D14F /* UIScrollView+DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03A21B3B7EDC0067D14F /* UIScrollView+DZNSegmentedControl.m */; };
+		207C03A91B3B7F8A0067D14F /* NBSegmentedDelegateDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03A81B3B7F8A0067D14F /* NBSegmentedDelegateDatasource.m */; };
+		207C03B11B3B88120067D14F /* NBBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03B01B3B88120067D14F /* NBBillViewController.m */; };
+		207C03B51B3B8C140067D14F /* NBColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03B41B3B8C140067D14F /* NBColors.m */; };
+		207C03B91B3B8D270067D14F /* NBBillColorFactorie.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03B81B3B8D270067D14F /* NBBillColorFactorie.m */; };
+		207C03BD1B3B9BB30067D14F /* NBBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03BC1B3B9BB30067D14F /* NBBaseView.m */; };
+		207C03C01B3B9BDF0067D14F /* NBBillHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03BF1B3B9BDF0067D14F /* NBBillHeaderView.m */; };
+		207C03C21B3B9BEA0067D14F /* NBBillHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207C03C11B3B9BEA0067D14F /* NBBillHeaderView.xib */; };
+		207C03C61B3B9D830067D14F /* NBBillHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03C51B3B9D830067D14F /* NBBillHeaderViewModel.m */; };
+		207C03CA1B3B9E390067D14F /* NBDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03C91B3B9E390067D14F /* NBDateFormatter.m */; };
+		207C03CE1B3BA2DC0067D14F /* UITableViewCell+NBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03CD1B3BA2DC0067D14F /* UITableViewCell+NBAdditions.m */; };
+		207C03D11B3BA3130067D14F /* NBBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03D01B3BA3130067D14F /* NBBaseTableViewCell.m */; };
+		207C03D41B3BA32E0067D14F /* NBBillItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03D31B3BA32E0067D14F /* NBBillItemTableViewCell.m */; };
+		207C03D61B3BA3380067D14F /* NBBillItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207C03D51B3BA3380067D14F /* NBBillItemTableViewCell.xib */; };
+		207C03D91B3BA58C0067D14F /* NBBillItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03D81B3BA58C0067D14F /* NBBillItemViewModel.m */; };
+		207C03DC1B3BAEB60067D14F /* bill_new.json in Resources */ = {isa = PBXBuildFile; fileRef = 207C03DB1B3BAEB60067D14F /* bill_new.json */; };
+		207C03DF1B3BB0280067D14F /* NBBillHeaderViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03DE1B3BB0280067D14F /* NBBillHeaderViewModelTests.m */; };
+		207C03E11B3BB1810067D14F /* NBBillItemViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03E01B3BB1810067D14F /* NBBillItemViewModelTests.m */; };
 		61FEE8D623BB02E3E49A8CC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D88B3038653F0278B40230 /* libPods.a */; };
 		8EC86C028876953155D786F8 /* libPods-nu-bill-unit-tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */; };
-		F478E1F61B3B36E3000A842C /* bill_new.json in Resources */ = {isa = PBXBuildFile; fileRef = F478E1F51B3B36E3000A842C /* bill_new.json */; };
 		F4E1936C1B3B460B005C393B /* NBNuBankClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E1936B1B3B460B005C393B /* NBNuBankClientTests.m */; };
 /* End PBXBuildFile section */
 
@@ -89,13 +105,41 @@
 		207C03A01B3B7EDC0067D14F /* DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNSegmentedControl.m; sourceTree = "<group>"; };
 		207C03A11B3B7EDC0067D14F /* UIScrollView+DZNSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DZNSegmentedControl.h"; sourceTree = "<group>"; };
 		207C03A21B3B7EDC0067D14F /* UIScrollView+DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DZNSegmentedControl.m"; sourceTree = "<group>"; };
+		207C03A71B3B7F8A0067D14F /* NBSegmentedDelegateDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSegmentedDelegateDatasource.h; sourceTree = "<group>"; };
+		207C03A81B3B7F8A0067D14F /* NBSegmentedDelegateDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBSegmentedDelegateDatasource.m; sourceTree = "<group>"; };
+		207C03AF1B3B88120067D14F /* NBBillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBillViewController.h; sourceTree = "<group>"; };
+		207C03B01B3B88120067D14F /* NBBillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillViewController.m; sourceTree = "<group>"; };
+		207C03B31B3B8C140067D14F /* NBColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBColors.h; sourceTree = "<group>"; };
+		207C03B41B3B8C140067D14F /* NBColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBColors.m; sourceTree = "<group>"; };
+		207C03B71B3B8D270067D14F /* NBBillColorFactorie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBillColorFactorie.h; sourceTree = "<group>"; };
+		207C03B81B3B8D270067D14F /* NBBillColorFactorie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillColorFactorie.m; sourceTree = "<group>"; };
+		207C03BB1B3B9BB30067D14F /* NBBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseView.h; sourceTree = "<group>"; };
+		207C03BC1B3B9BB30067D14F /* NBBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseView.m; sourceTree = "<group>"; };
+		207C03BE1B3B9BDF0067D14F /* NBBillHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBillHeaderView.h; sourceTree = "<group>"; };
+		207C03BF1B3B9BDF0067D14F /* NBBillHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillHeaderView.m; sourceTree = "<group>"; };
+		207C03C11B3B9BEA0067D14F /* NBBillHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBBillHeaderView.xib; sourceTree = "<group>"; };
+		207C03C41B3B9D830067D14F /* NBBillHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBillHeaderViewModel.h; sourceTree = "<group>"; };
+		207C03C51B3B9D830067D14F /* NBBillHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillHeaderViewModel.m; sourceTree = "<group>"; };
+		207C03C81B3B9E390067D14F /* NBDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBDateFormatter.h; sourceTree = "<group>"; };
+		207C03C91B3B9E390067D14F /* NBDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBDateFormatter.m; sourceTree = "<group>"; };
+		207C03CC1B3BA2DC0067D14F /* UITableViewCell+NBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+NBAdditions.h"; sourceTree = "<group>"; };
+		207C03CD1B3BA2DC0067D14F /* UITableViewCell+NBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+NBAdditions.m"; sourceTree = "<group>"; };
+		207C03CF1B3BA3130067D14F /* NBBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseTableViewCell.h; sourceTree = "<group>"; };
+		207C03D01B3BA3130067D14F /* NBBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseTableViewCell.m; sourceTree = "<group>"; };
+		207C03D21B3BA32E0067D14F /* NBBillItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBillItemTableViewCell.h; sourceTree = "<group>"; };
+		207C03D31B3BA32E0067D14F /* NBBillItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillItemTableViewCell.m; sourceTree = "<group>"; };
+		207C03D51B3BA3380067D14F /* NBBillItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBBillItemTableViewCell.xib; sourceTree = "<group>"; };
+		207C03D71B3BA58C0067D14F /* NBBillItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBillItemViewModel.h; sourceTree = "<group>"; };
+		207C03D81B3BA58C0067D14F /* NBBillItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillItemViewModel.m; sourceTree = "<group>"; };
+		207C03DB1B3BAEB60067D14F /* bill_new.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bill_new.json; sourceTree = "<group>"; };
+		207C03DE1B3BB0280067D14F /* NBBillHeaderViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillHeaderViewModelTests.m; sourceTree = "<group>"; };
+		207C03E01B3BB1810067D14F /* NBBillItemViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillItemViewModelTests.m; sourceTree = "<group>"; };
 		34B329EAF08D6BDF239B3070 /* Pods-nu-bill-unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nu-bill-unit-tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nu-bill-unit-tests/Pods-nu-bill-unit-tests.release.xcconfig"; sourceTree = "<group>"; };
 		48D88B3038653F0278B40230 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nu-bill-unit-tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CF16325BA2831EC7C6F0A5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D7556958F0EE91761EBA4BD4 /* Pods-nu-bill-unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nu-bill-unit-tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nu-bill-unit-tests/Pods-nu-bill-unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5F22746475C03823D924EA7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		F478E1F51B3B36E3000A842C /* bill_new.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bill_new.json; path = ../../../../../Desktop/bill_new.json; sourceTree = "<group>"; };
 		F4E1936B1B3B460B005C393B /* NBNuBankClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNuBankClientTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,10 +206,16 @@
 			isa = PBXGroup;
 			children = (
 				204B472C1B3A2BF800DB81DF /* application */,
+				207C03CB1B3BA2C90067D14F /* categories */,
 				207C03781B3A54730067D14F /* controllers */,
+				207C03B21B3B8C090067D14F /* constants */,
+				207C03A61B3B7F750067D14F /* datasources */,
 				207C039D1B3B7EB60067D14F /* external */,
+				207C03B61B3B8CFC0067D14F /* factories */,
+				207C03C71B3B9E2C0067D14F /* formatters */,
 				204B47351B3A2C2700DB81DF /* models */,
 				204B47361B3A2C2700DB81DF /* viewcontrollers */,
+				207C03C31B3B9D760067D14F /* viewmodels */,
 				204B47371B3A2C2700DB81DF /* views */,
 			);
 			path = classes;
@@ -210,6 +260,13 @@
 		204B47371B3A2C2700DB81DF /* views */ = {
 			isa = PBXGroup;
 			children = (
+				207C03BA1B3B9BAA0067D14F /* base */,
+				207C03BE1B3B9BDF0067D14F /* NBBillHeaderView.h */,
+				207C03BF1B3B9BDF0067D14F /* NBBillHeaderView.m */,
+				207C03C11B3B9BEA0067D14F /* NBBillHeaderView.xib */,
+				207C03D21B3BA32E0067D14F /* NBBillItemTableViewCell.h */,
+				207C03D31B3BA32E0067D14F /* NBBillItemTableViewCell.m */,
+				207C03D51B3BA3380067D14F /* NBBillItemTableViewCell.xib */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -229,7 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				204B474E1B3A315400DB81DF /* classes */,
-				F478E1F41B3B36CC000A842C /* fixtures */,
+				207C03DA1B3BAEB60067D14F /* fixtures */,
 				204B47451B3A302000DB81DF /* Supporting Files */,
 			);
 			path = "nu-bill-unit-tests";
@@ -248,6 +305,7 @@
 			children = (
 				207C03911B3A6AF10067D14F /* controllers */,
 				204B474F1B3A315400DB81DF /* models */,
+				207C03DD1B3BB0060067D14F /* viewmodels */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -339,6 +397,8 @@
 		207C03951B3B7E3A0067D14F /* NBBillViewController */ = {
 			isa = PBXGroup;
 			children = (
+				207C03AF1B3B88120067D14F /* NBBillViewController.h */,
+				207C03B01B3B88120067D14F /* NBBillViewController.m */,
 			);
 			path = NBBillViewController;
 			sourceTree = "<group>";
@@ -371,6 +431,91 @@
 			path = DZNSegmentedControl;
 			sourceTree = "<group>";
 		};
+		207C03A61B3B7F750067D14F /* datasources */ = {
+			isa = PBXGroup;
+			children = (
+				207C03A71B3B7F8A0067D14F /* NBSegmentedDelegateDatasource.h */,
+				207C03A81B3B7F8A0067D14F /* NBSegmentedDelegateDatasource.m */,
+			);
+			path = datasources;
+			sourceTree = "<group>";
+		};
+		207C03B21B3B8C090067D14F /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				207C03B31B3B8C140067D14F /* NBColors.h */,
+				207C03B41B3B8C140067D14F /* NBColors.m */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		207C03B61B3B8CFC0067D14F /* factories */ = {
+			isa = PBXGroup;
+			children = (
+				207C03B71B3B8D270067D14F /* NBBillColorFactorie.h */,
+				207C03B81B3B8D270067D14F /* NBBillColorFactorie.m */,
+			);
+			path = factories;
+			sourceTree = "<group>";
+		};
+		207C03BA1B3B9BAA0067D14F /* base */ = {
+			isa = PBXGroup;
+			children = (
+				207C03BB1B3B9BB30067D14F /* NBBaseView.h */,
+				207C03BC1B3B9BB30067D14F /* NBBaseView.m */,
+				207C03CF1B3BA3130067D14F /* NBBaseTableViewCell.h */,
+				207C03D01B3BA3130067D14F /* NBBaseTableViewCell.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		207C03C31B3B9D760067D14F /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				207C03C41B3B9D830067D14F /* NBBillHeaderViewModel.h */,
+				207C03C51B3B9D830067D14F /* NBBillHeaderViewModel.m */,
+				207C03D71B3BA58C0067D14F /* NBBillItemViewModel.h */,
+				207C03D81B3BA58C0067D14F /* NBBillItemViewModel.m */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		207C03C71B3B9E2C0067D14F /* formatters */ = {
+			isa = PBXGroup;
+			children = (
+				207C03C81B3B9E390067D14F /* NBDateFormatter.h */,
+				207C03C91B3B9E390067D14F /* NBDateFormatter.m */,
+			);
+			path = formatters;
+			sourceTree = "<group>";
+		};
+		207C03CB1B3BA2C90067D14F /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				207C03CC1B3BA2DC0067D14F /* UITableViewCell+NBAdditions.h */,
+				207C03CD1B3BA2DC0067D14F /* UITableViewCell+NBAdditions.m */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		207C03DA1B3BAEB60067D14F /* fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				207C03DB1B3BAEB60067D14F /* bill_new.json */,
+			);
+			path = fixtures;
+			sourceTree = "<group>";
+		};
+		207C03DD1B3BB0060067D14F /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				207C03DE1B3BB0280067D14F /* NBBillHeaderViewModelTests.m */,
+				207C03E01B3BB1810067D14F /* NBBillItemViewModelTests.m */,
+			);
+			name = viewmodels;
+			path = "nu-bill-unit-tests/viewmodels";
+			sourceTree = SOURCE_ROOT;
+		};
 		4F33DFA5FF1C4853144CB2CD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -389,14 +534,6 @@
 				BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F478E1F41B3B36CC000A842C /* fixtures */ = {
-			isa = PBXGroup;
-			children = (
-				F478E1F51B3B36E3000A842C /* bill_new.json */,
-			);
-			path = fixtures;
 			sourceTree = "<group>";
 		};
 		F4E1936A1B3B45FA005C393B /* client */ = {
@@ -493,6 +630,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				204B47131B3A248100DB81DF /* Images.xcassets in Resources */,
+				207C03D61B3BA3380067D14F /* NBBillItemTableViewCell.xib in Resources */,
+				207C03C21B3B9BEA0067D14F /* NBBillHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,7 +639,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F478E1F61B3B36E3000A842C /* bill_new.json in Resources */,
+				207C03DC1B3BAEB60067D14F /* bill_new.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +714,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				204B47621B3A3E3300DB81DF /* NBBillItem.m in Sources */,
+				207C03C01B3B9BDF0067D14F /* NBBillHeaderView.m in Sources */,
 				207C03851B3A57FD0067D14F /* NBBillsController.m in Sources */,
 				207C039C1B3B7E720067D14F /* NBBillsViewController.m in Sources */,
 				204B47591B3A360700DB81DF /* NBBaseModel.m in Sources */,
@@ -583,12 +723,23 @@
 				207C037F1B3A568C0067D14F /* NBDateConverter.m in Sources */,
 				204B473E1B3A2CB900DB81DF /* NBModelConverter.m in Sources */,
 				207C03991B3B7E5C0067D14F /* NBBaseViewController.m in Sources */,
+				207C03B91B3B8D270067D14F /* NBBillColorFactorie.m in Sources */,
+				207C03CE1B3BA2DC0067D14F /* UITableViewCell+NBAdditions.m in Sources */,
+				207C03B11B3B88120067D14F /* NBBillViewController.m in Sources */,
 				207C03A31B3B7EDC0067D14F /* DZNSegmentedControl.m in Sources */,
+				207C03CA1B3B9E390067D14F /* NBDateFormatter.m in Sources */,
+				207C03D41B3BA32E0067D14F /* NBBillItemTableViewCell.m in Sources */,
 				207C03A41B3B7EDC0067D14F /* UIScrollView+DZNSegmentedControl.m in Sources */,
 				204B475C1B3A382200DB81DF /* NBBill.m in Sources */,
+				207C03A91B3B7F8A0067D14F /* NBSegmentedDelegateDatasource.m in Sources */,
+				207C03D11B3BA3130067D14F /* NBBaseTableViewCell.m in Sources */,
 				207C038B1B3A59010067D14F /* NBNuBankClient.m in Sources */,
 				204B475F1B3A39C200DB81DF /* NBSummary.m in Sources */,
+				207C03C61B3B9D830067D14F /* NBBillHeaderViewModel.m in Sources */,
+				207C03BD1B3B9BB30067D14F /* NBBaseView.m in Sources */,
+				207C03D91B3BA58C0067D14F /* NBBillItemViewModel.m in Sources */,
 				204B47081B3A248100DB81DF /* main.m in Sources */,
+				207C03B51B3B8C140067D14F /* NBColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,7 +753,9 @@
 				207C03771B3A50DA0067D14F /* NBBillItemTests.m in Sources */,
 				207C03901B3A5F0C0067D14F /* NBBillResultTests.m in Sources */,
 				207C03731B3A47D80067D14F /* NBBillTests.m in Sources */,
+				207C03DF1B3BB0280067D14F /* NBBillHeaderViewModelTests.m in Sources */,
 				207C03931B3A6AFB0067D14F /* NBBillsControllerTests.m in Sources */,
+				207C03E11B3BB1810067D14F /* NBBillItemViewModelTests.m in Sources */,
 				204B47521B3A316600DB81DF /* NBModelConverterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

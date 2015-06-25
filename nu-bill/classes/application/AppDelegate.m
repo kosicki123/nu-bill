@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NBBillsViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    NBBillsViewController *billsViewController = [[NBBillsViewController alloc] init];
+    self.window.rootViewController = billsViewController;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
