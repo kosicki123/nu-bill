@@ -45,15 +45,15 @@
 
 - (void)buildTitle {
     _title = self.billItem.title;
+    if (self.billItem.charges.intValue > 1) {
+        NSString *installment = [NSString stringWithFormat:@" %i/%i", self.billItem.index.intValue + 1, self.billItem.charges.intValue];
+        _title = [_title stringByAppendingString:installment];;
+    }
 }
 
 - (void)buildAmount {
     float absoluteValue = fabs(self.billItem.amount.floatValue);
     _amount = [NSString stringWithFormat:@"%.2f", absoluteValue];
-    if (self.billItem.charges.intValue > 1) {
-        NSString *installment = [NSString stringWithFormat:@" %i/%i", self.billItem.index.intValue + 1, self.billItem.charges.intValue];
-        _amount = [_amount stringByAppendingString:installment];;
-    }
 }
 
 - (void)buildColorAmount {
