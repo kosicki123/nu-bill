@@ -26,6 +26,10 @@
 		207C038E1B3A5E810067D14F /* NBBillResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C038D1B3A5E810067D14F /* NBBillResult.m */; };
 		207C03901B3A5F0C0067D14F /* NBBillResultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C038F1B3A5F0C0067D14F /* NBBillResultTests.m */; };
 		207C03931B3A6AFB0067D14F /* NBBillsControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03921B3A6AFB0067D14F /* NBBillsControllerTests.m */; };
+		207C03991B3B7E5C0067D14F /* NBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03981B3B7E5C0067D14F /* NBBaseViewController.m */; };
+		207C039C1B3B7E720067D14F /* NBBillsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C039B1B3B7E720067D14F /* NBBillsViewController.m */; };
+		207C03A31B3B7EDC0067D14F /* DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03A01B3B7EDC0067D14F /* DZNSegmentedControl.m */; };
+		207C03A41B3B7EDC0067D14F /* UIScrollView+DZNSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03A21B3B7EDC0067D14F /* UIScrollView+DZNSegmentedControl.m */; };
 		61FEE8D623BB02E3E49A8CC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D88B3038653F0278B40230 /* libPods.a */; };
 		8EC86C028876953155D786F8 /* libPods-nu-bill-unit-tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */; };
 		F478E1F61B3B36E3000A842C /* bill_new.json in Resources */ = {isa = PBXBuildFile; fileRef = F478E1F51B3B36E3000A842C /* bill_new.json */; };
@@ -77,6 +81,14 @@
 		207C038D1B3A5E810067D14F /* NBBillResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillResult.m; sourceTree = "<group>"; };
 		207C038F1B3A5F0C0067D14F /* NBBillResultTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillResultTests.m; sourceTree = "<group>"; };
 		207C03921B3A6AFB0067D14F /* NBBillsControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillsControllerTests.m; sourceTree = "<group>"; };
+		207C03971B3B7E5C0067D14F /* NBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseViewController.h; sourceTree = "<group>"; };
+		207C03981B3B7E5C0067D14F /* NBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseViewController.m; sourceTree = "<group>"; };
+		207C039A1B3B7E720067D14F /* NBBillsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBillsViewController.h; sourceTree = "<group>"; };
+		207C039B1B3B7E720067D14F /* NBBillsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillsViewController.m; sourceTree = "<group>"; };
+		207C039F1B3B7EDC0067D14F /* DZNSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNSegmentedControl.h; sourceTree = "<group>"; };
+		207C03A01B3B7EDC0067D14F /* DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNSegmentedControl.m; sourceTree = "<group>"; };
+		207C03A11B3B7EDC0067D14F /* UIScrollView+DZNSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DZNSegmentedControl.h"; sourceTree = "<group>"; };
+		207C03A21B3B7EDC0067D14F /* UIScrollView+DZNSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DZNSegmentedControl.m"; sourceTree = "<group>"; };
 		34B329EAF08D6BDF239B3070 /* Pods-nu-bill-unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nu-bill-unit-tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nu-bill-unit-tests/Pods-nu-bill-unit-tests.release.xcconfig"; sourceTree = "<group>"; };
 		48D88B3038653F0278B40230 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nu-bill-unit-tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +163,7 @@
 			children = (
 				204B472C1B3A2BF800DB81DF /* application */,
 				207C03781B3A54730067D14F /* controllers */,
+				207C039D1B3B7EB60067D14F /* external */,
 				204B47351B3A2C2700DB81DF /* models */,
 				204B47361B3A2C2700DB81DF /* viewcontrollers */,
 				204B47371B3A2C2700DB81DF /* views */,
@@ -187,6 +200,9 @@
 		204B47361B3A2C2700DB81DF /* viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				207C03961B3B7E500067D14F /* NBBaseViewController */,
+				207C03941B3B7E3A0067D14F /* NBBillsViewController */,
+				207C03951B3B7E3A0067D14F /* NBBillViewController */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -309,6 +325,50 @@
 				207C03921B3A6AFB0067D14F /* NBBillsControllerTests.m */,
 			);
 			path = controllers;
+			sourceTree = "<group>";
+		};
+		207C03941B3B7E3A0067D14F /* NBBillsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				207C039A1B3B7E720067D14F /* NBBillsViewController.h */,
+				207C039B1B3B7E720067D14F /* NBBillsViewController.m */,
+			);
+			path = NBBillsViewController;
+			sourceTree = "<group>";
+		};
+		207C03951B3B7E3A0067D14F /* NBBillViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NBBillViewController;
+			sourceTree = "<group>";
+		};
+		207C03961B3B7E500067D14F /* NBBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				207C03971B3B7E5C0067D14F /* NBBaseViewController.h */,
+				207C03981B3B7E5C0067D14F /* NBBaseViewController.m */,
+			);
+			path = NBBaseViewController;
+			sourceTree = "<group>";
+		};
+		207C039D1B3B7EB60067D14F /* external */ = {
+			isa = PBXGroup;
+			children = (
+				207C039E1B3B7EDC0067D14F /* DZNSegmentedControl */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		207C039E1B3B7EDC0067D14F /* DZNSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				207C039F1B3B7EDC0067D14F /* DZNSegmentedControl.h */,
+				207C03A01B3B7EDC0067D14F /* DZNSegmentedControl.m */,
+				207C03A11B3B7EDC0067D14F /* UIScrollView+DZNSegmentedControl.h */,
+				207C03A21B3B7EDC0067D14F /* UIScrollView+DZNSegmentedControl.m */,
+			);
+			path = DZNSegmentedControl;
 			sourceTree = "<group>";
 		};
 		4F33DFA5FF1C4853144CB2CD /* Pods */ = {
@@ -516,11 +576,15 @@
 			files = (
 				204B47621B3A3E3300DB81DF /* NBBillItem.m in Sources */,
 				207C03851B3A57FD0067D14F /* NBBillsController.m in Sources */,
+				207C039C1B3B7E720067D14F /* NBBillsViewController.m in Sources */,
 				204B47591B3A360700DB81DF /* NBBaseModel.m in Sources */,
 				204B472F1B3A2BF800DB81DF /* AppDelegate.m in Sources */,
 				207C038E1B3A5E810067D14F /* NBBillResult.m in Sources */,
 				207C037F1B3A568C0067D14F /* NBDateConverter.m in Sources */,
 				204B473E1B3A2CB900DB81DF /* NBModelConverter.m in Sources */,
+				207C03991B3B7E5C0067D14F /* NBBaseViewController.m in Sources */,
+				207C03A31B3B7EDC0067D14F /* DZNSegmentedControl.m in Sources */,
+				207C03A41B3B7EDC0067D14F /* UIScrollView+DZNSegmentedControl.m in Sources */,
 				204B475C1B3A382200DB81DF /* NBBill.m in Sources */,
 				207C038B1B3A59010067D14F /* NBNuBankClient.m in Sources */,
 				204B475F1B3A39C200DB81DF /* NBSummary.m in Sources */,
