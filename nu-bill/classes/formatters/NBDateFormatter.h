@@ -10,7 +10,8 @@
 
 @interface NBDateFormatter : NSObject
 
-+ (NSString *)monthForDate:(NSDate *)date;
++ (NSString *)longMonthForDate:(NSDate *)date;
++ (NSString *)mediumMonthForDate:(NSDate *)date;
 + (NSNumber *)dayOfDate:(NSDate *)date;
 
 @end

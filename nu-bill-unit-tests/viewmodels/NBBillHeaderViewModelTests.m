@@ -31,7 +31,7 @@
                                      }};
     NBBill *bill = [NBModelConverter convertModelFromJSON:values class:[NBBill class]];
     NBBillHeaderViewModel *modelView = [[NBBillHeaderViewModel alloc] initWithBill:bill];
-    XCTAssertEqualObjects(@"DE 17 MAR ATÉ 7 APR", modelView.billPeriod);
+    XCTAssertEqualObjects(@"DE 17 MAR ATÉ 7 ABR", modelView.billPeriod);
 }
 
 @end

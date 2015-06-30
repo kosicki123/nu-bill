@@ -35,6 +35,7 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - DCIntrospect-ARC (0.0.8)
   - ISO8601DateFormatter (0.7)
   - Mantle (2.0.2):
     - Mantle/extobjc
@@ -46,6 +47,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
   - BlocksKit (~> 2.2)
+  - DCIntrospect-ARC (~> 0.0)
   - ISO8601DateFormatter (~> 0.7)
   - Mantle (~> 2.0)
   - MBProgressHUD (~> 0.9)
@@ -55,6 +57,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  DCIntrospect-ARC: 68a97cc2e99420b21bfcd66865b5376701f8e7f5
   ISO8601DateFormatter: ab926648eebe497f4d167c0fd083992f959f1274
   Mantle: 967fd31ea0220890b2e76589198996b534bb3fb1
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad

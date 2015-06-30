@@ -10,12 +10,25 @@
 
 @implementation NBDateFormatter
 
-+ (NSString *)monthForDate:(NSDate *)date {
++ (NSString *)mediumMonthForDate:(NSDate *)date {
     static NSDateFormatter *dateFormatter = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         dateFormatter = [[NSDateFormatter alloc] init];
+        dateFormatter.locale = [NSLocale localeWithLocaleIdentifier:@"pt_BR"];
         dateFormatter.dateFormat = @"MMM";
+    });
+    
+    return [[dateFormatter stringFromDate:date] uppercaseString];
+}
+
++ (NSString *)longMonthForDate:(NSDate *)date {
+    static NSDateFormatter *dateFormatter = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        dateFormatter = [[NSDateFormatter alloc] init];
+        dateFormatter.locale = [NSLocale localeWithLocaleIdentifier:@"pt_BR"];
+        dateFormatter.dateFormat = @"MMMM";
     });
     
     return [[dateFormatter stringFromDate:date] uppercaseString];

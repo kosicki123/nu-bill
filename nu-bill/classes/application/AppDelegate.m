@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "NBBillsViewController.h"
 
+#import "DCIntrospect.h"
+
 @interface AppDelegate ()
 
 @end
@@ -23,6 +25,11 @@
     self.window.rootViewController = billsViewController;
     
     [self.window makeKeyAndVisible];
+    
+    // always call after makeKeyAndDisplay.
+#if TARGET_IPHONE_SIMULATOR
+    [[DCIntrospect sharedIntrospector] start];
+#endif
     
     return YES;
 }

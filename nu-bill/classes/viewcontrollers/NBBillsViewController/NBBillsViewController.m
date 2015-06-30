@@ -91,7 +91,7 @@
 
 - (DZNSegmentedControl *)createSegmentControl {
     NSArray *titles = [self.bills bk_map:^NSString *(NBBill *bill) {
-        return [NBDateFormatter monthForDate:bill.summary.dueDate];
+        return [NBDateFormatter mediumMonthForDate:bill.summary.dueDate];
     }];
     
     DZNSegmentedControl *segmentControl = [[DZNSegmentedControl alloc] initWithItems:titles];

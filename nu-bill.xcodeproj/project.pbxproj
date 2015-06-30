@@ -47,6 +47,21 @@
 		207C03DC1B3BAEB60067D14F /* bill_new.json in Resources */ = {isa = PBXBuildFile; fileRef = 207C03DB1B3BAEB60067D14F /* bill_new.json */; };
 		207C03DF1B3BB0280067D14F /* NBBillHeaderViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03DE1B3BB0280067D14F /* NBBillHeaderViewModelTests.m */; };
 		207C03E11B3BB1810067D14F /* NBBillItemViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03E01B3BB1810067D14F /* NBBillItemViewModelTests.m */; };
+		207C03E51B3F45B80067D14F /* NBOverdueBillHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03E41B3F45B80067D14F /* NBOverdueBillHeaderView.m */; };
+		207C03E71B3F45C40067D14F /* NBOverdueBillHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207C03E61B3F45C40067D14F /* NBOverdueBillHeaderView.xib */; };
+		207C03EE1B3F499E0067D14F /* NBClosedBillHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03ED1B3F499E0067D14F /* NBClosedBillHeaderView.m */; };
+		207C03F01B3F49A90067D14F /* NBClosedBillHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207C03EF1B3F49A90067D14F /* NBClosedBillHeaderView.xib */; };
+		207C03F31B3F4CE70067D14F /* NBBillHeaderFactorie.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03F21B3F4CE70067D14F /* NBBillHeaderFactorie.m */; };
+		207C03F61B3F4DAE0067D14F /* NBOpenBillHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03F51B3F4DAE0067D14F /* NBOpenBillHeaderView.m */; };
+		207C03F81B3F4DBA0067D14F /* NBOpenBillHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207C03F71B3F4DBA0067D14F /* NBOpenBillHeaderView.xib */; };
+		207C03FB1B3F4E7D0067D14F /* NBFutureBillHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03FA1B3F4E7D0067D14F /* NBFutureBillHeaderView.m */; };
+		207C03FD1B3F4E8D0067D14F /* NBFutureBillHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207C03FC1B3F4E8D0067D14F /* NBFutureBillHeaderView.xib */; };
+		207C04001B4220240067D14F /* NBBaseBillHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03FF1B4220240067D14F /* NBBaseBillHeader.m */; };
+		207C04041B4222A30067D14F /* NBBaseBillHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C04031B4222A30067D14F /* NBBaseBillHeaderViewModel.m */; };
+		207C04071B4229C60067D14F /* NBNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C04061B4229C60067D14F /* NBNumberFormatter.m */; };
+		207C040A1B422FEF0067D14F /* NBOpenBillHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C04091B422FEF0067D14F /* NBOpenBillHeaderViewModel.m */; };
+		207C040D1B423EDF0067D14F /* NBOverdueBillHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C040C1B423EDF0067D14F /* NBOverdueBillHeaderViewModel.m */; };
+		207C04101B42403F0067D14F /* NBClosedBillHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C040F1B42403F0067D14F /* NBClosedBillHeaderViewModel.m */; };
 		61FEE8D623BB02E3E49A8CC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D88B3038653F0278B40230 /* libPods.a */; };
 		8EC86C028876953155D786F8 /* libPods-nu-bill-unit-tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */; };
 		F4E1936C1B3B460B005C393B /* NBNuBankClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E1936B1B3B460B005C393B /* NBNuBankClientTests.m */; };
@@ -134,6 +149,32 @@
 		207C03DB1B3BAEB60067D14F /* bill_new.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bill_new.json; sourceTree = "<group>"; };
 		207C03DE1B3BB0280067D14F /* NBBillHeaderViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillHeaderViewModelTests.m; sourceTree = "<group>"; };
 		207C03E01B3BB1810067D14F /* NBBillItemViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillItemViewModelTests.m; sourceTree = "<group>"; };
+		207C03E31B3F45B80067D14F /* NBOverdueBillHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBOverdueBillHeaderView.h; sourceTree = "<group>"; };
+		207C03E41B3F45B80067D14F /* NBOverdueBillHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBOverdueBillHeaderView.m; sourceTree = "<group>"; };
+		207C03E61B3F45C40067D14F /* NBOverdueBillHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBOverdueBillHeaderView.xib; sourceTree = "<group>"; };
+		207C03EC1B3F499E0067D14F /* NBClosedBillHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBClosedBillHeaderView.h; sourceTree = "<group>"; };
+		207C03ED1B3F499E0067D14F /* NBClosedBillHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBClosedBillHeaderView.m; sourceTree = "<group>"; };
+		207C03EF1B3F49A90067D14F /* NBClosedBillHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBClosedBillHeaderView.xib; sourceTree = "<group>"; };
+		207C03F11B3F4CE70067D14F /* NBBillHeaderFactorie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBillHeaderFactorie.h; sourceTree = "<group>"; };
+		207C03F21B3F4CE70067D14F /* NBBillHeaderFactorie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillHeaderFactorie.m; sourceTree = "<group>"; };
+		207C03F41B3F4DAE0067D14F /* NBOpenBillHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBOpenBillHeaderView.h; sourceTree = "<group>"; };
+		207C03F51B3F4DAE0067D14F /* NBOpenBillHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBOpenBillHeaderView.m; sourceTree = "<group>"; };
+		207C03F71B3F4DBA0067D14F /* NBOpenBillHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBOpenBillHeaderView.xib; sourceTree = "<group>"; };
+		207C03F91B3F4E7D0067D14F /* NBFutureBillHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBFutureBillHeaderView.h; sourceTree = "<group>"; };
+		207C03FA1B3F4E7D0067D14F /* NBFutureBillHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBFutureBillHeaderView.m; sourceTree = "<group>"; };
+		207C03FC1B3F4E8D0067D14F /* NBFutureBillHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBFutureBillHeaderView.xib; sourceTree = "<group>"; };
+		207C03FE1B4220240067D14F /* NBBaseBillHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseBillHeader.h; sourceTree = "<group>"; };
+		207C03FF1B4220240067D14F /* NBBaseBillHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseBillHeader.m; sourceTree = "<group>"; };
+		207C04021B4222A30067D14F /* NBBaseBillHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBaseBillHeaderViewModel.h; sourceTree = "<group>"; };
+		207C04031B4222A30067D14F /* NBBaseBillHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBaseBillHeaderViewModel.m; sourceTree = "<group>"; };
+		207C04051B4229C60067D14F /* NBNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNumberFormatter.h; sourceTree = "<group>"; };
+		207C04061B4229C60067D14F /* NBNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNumberFormatter.m; sourceTree = "<group>"; };
+		207C04081B422FEF0067D14F /* NBOpenBillHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBOpenBillHeaderViewModel.h; sourceTree = "<group>"; };
+		207C04091B422FEF0067D14F /* NBOpenBillHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBOpenBillHeaderViewModel.m; sourceTree = "<group>"; };
+		207C040B1B423EDF0067D14F /* NBOverdueBillHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBOverdueBillHeaderViewModel.h; sourceTree = "<group>"; };
+		207C040C1B423EDF0067D14F /* NBOverdueBillHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBOverdueBillHeaderViewModel.m; sourceTree = "<group>"; };
+		207C040E1B42403F0067D14F /* NBClosedBillHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBClosedBillHeaderViewModel.h; sourceTree = "<group>"; };
+		207C040F1B42403F0067D14F /* NBClosedBillHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBClosedBillHeaderViewModel.m; sourceTree = "<group>"; };
 		34B329EAF08D6BDF239B3070 /* Pods-nu-bill-unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nu-bill-unit-tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nu-bill-unit-tests/Pods-nu-bill-unit-tests.release.xcconfig"; sourceTree = "<group>"; };
 		48D88B3038653F0278B40230 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nu-bill-unit-tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -261,6 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				207C03BA1B3B9BAA0067D14F /* base */,
+				207C03E21B3F45740067D14F /* bill-header */,
 				207C03BE1B3B9BDF0067D14F /* NBBillHeaderView.h */,
 				207C03BF1B3B9BDF0067D14F /* NBBillHeaderView.m */,
 				207C03C11B3B9BEA0067D14F /* NBBillHeaderView.xib */,
@@ -454,6 +496,8 @@
 			children = (
 				207C03B71B3B8D270067D14F /* NBBillColorFactorie.h */,
 				207C03B81B3B8D270067D14F /* NBBillColorFactorie.m */,
+				207C03F11B3F4CE70067D14F /* NBBillHeaderFactorie.h */,
+				207C03F21B3F4CE70067D14F /* NBBillHeaderFactorie.m */,
 			);
 			path = factories;
 			sourceTree = "<group>";
@@ -472,6 +516,7 @@
 		207C03C31B3B9D760067D14F /* viewmodels */ = {
 			isa = PBXGroup;
 			children = (
+				207C04011B42222D0067D14F /* bill-header */,
 				207C03C41B3B9D830067D14F /* NBBillHeaderViewModel.h */,
 				207C03C51B3B9D830067D14F /* NBBillHeaderViewModel.m */,
 				207C03D71B3BA58C0067D14F /* NBBillItemViewModel.h */,
@@ -485,6 +530,8 @@
 			children = (
 				207C03C81B3B9E390067D14F /* NBDateFormatter.h */,
 				207C03C91B3B9E390067D14F /* NBDateFormatter.m */,
+				207C04051B4229C60067D14F /* NBNumberFormatter.h */,
+				207C04061B4229C60067D14F /* NBNumberFormatter.m */,
 			);
 			path = formatters;
 			sourceTree = "<group>";
@@ -515,6 +562,42 @@
 			name = viewmodels;
 			path = "nu-bill-unit-tests/viewmodels";
 			sourceTree = SOURCE_ROOT;
+		};
+		207C03E21B3F45740067D14F /* bill-header */ = {
+			isa = PBXGroup;
+			children = (
+				207C03FE1B4220240067D14F /* NBBaseBillHeader.h */,
+				207C03FF1B4220240067D14F /* NBBaseBillHeader.m */,
+				207C03E31B3F45B80067D14F /* NBOverdueBillHeaderView.h */,
+				207C03E41B3F45B80067D14F /* NBOverdueBillHeaderView.m */,
+				207C03E61B3F45C40067D14F /* NBOverdueBillHeaderView.xib */,
+				207C03EC1B3F499E0067D14F /* NBClosedBillHeaderView.h */,
+				207C03ED1B3F499E0067D14F /* NBClosedBillHeaderView.m */,
+				207C03EF1B3F49A90067D14F /* NBClosedBillHeaderView.xib */,
+				207C03F41B3F4DAE0067D14F /* NBOpenBillHeaderView.h */,
+				207C03F51B3F4DAE0067D14F /* NBOpenBillHeaderView.m */,
+				207C03F71B3F4DBA0067D14F /* NBOpenBillHeaderView.xib */,
+				207C03F91B3F4E7D0067D14F /* NBFutureBillHeaderView.h */,
+				207C03FA1B3F4E7D0067D14F /* NBFutureBillHeaderView.m */,
+				207C03FC1B3F4E8D0067D14F /* NBFutureBillHeaderView.xib */,
+			);
+			path = "bill-header";
+			sourceTree = "<group>";
+		};
+		207C04011B42222D0067D14F /* bill-header */ = {
+			isa = PBXGroup;
+			children = (
+				207C04021B4222A30067D14F /* NBBaseBillHeaderViewModel.h */,
+				207C04031B4222A30067D14F /* NBBaseBillHeaderViewModel.m */,
+				207C040B1B423EDF0067D14F /* NBOverdueBillHeaderViewModel.h */,
+				207C040C1B423EDF0067D14F /* NBOverdueBillHeaderViewModel.m */,
+				207C040E1B42403F0067D14F /* NBClosedBillHeaderViewModel.h */,
+				207C040F1B42403F0067D14F /* NBClosedBillHeaderViewModel.m */,
+				207C04081B422FEF0067D14F /* NBOpenBillHeaderViewModel.h */,
+				207C04091B422FEF0067D14F /* NBOpenBillHeaderViewModel.m */,
+			);
+			path = "bill-header";
+			sourceTree = "<group>";
 		};
 		4F33DFA5FF1C4853144CB2CD /* Pods */ = {
 			isa = PBXGroup;
@@ -629,7 +712,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207C03FD1B3F4E8D0067D14F /* NBFutureBillHeaderView.xib in Resources */,
+				207C03F81B3F4DBA0067D14F /* NBOpenBillHeaderView.xib in Resources */,
 				204B47131B3A248100DB81DF /* Images.xcassets in Resources */,
+				207C03F01B3F49A90067D14F /* NBClosedBillHeaderView.xib in Resources */,
+				207C03E71B3F45C40067D14F /* NBOverdueBillHeaderView.xib in Resources */,
 				207C03D61B3BA3380067D14F /* NBBillItemTableViewCell.xib in Resources */,
 				207C03C21B3B9BEA0067D14F /* NBBillHeaderView.xib in Resources */,
 			);
@@ -713,10 +800,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207C03EE1B3F499E0067D14F /* NBClosedBillHeaderView.m in Sources */,
 				204B47621B3A3E3300DB81DF /* NBBillItem.m in Sources */,
 				207C03C01B3B9BDF0067D14F /* NBBillHeaderView.m in Sources */,
 				207C03851B3A57FD0067D14F /* NBBillsController.m in Sources */,
+				207C040A1B422FEF0067D14F /* NBOpenBillHeaderViewModel.m in Sources */,
 				207C039C1B3B7E720067D14F /* NBBillsViewController.m in Sources */,
+				207C04101B42403F0067D14F /* NBClosedBillHeaderViewModel.m in Sources */,
+				207C03FB1B3F4E7D0067D14F /* NBFutureBillHeaderView.m in Sources */,
+				207C03F61B3F4DAE0067D14F /* NBOpenBillHeaderView.m in Sources */,
+				207C04041B4222A30067D14F /* NBBaseBillHeaderViewModel.m in Sources */,
 				204B47591B3A360700DB81DF /* NBBaseModel.m in Sources */,
 				204B472F1B3A2BF800DB81DF /* AppDelegate.m in Sources */,
 				207C038E1B3A5E810067D14F /* NBBillResult.m in Sources */,
@@ -728,8 +821,11 @@
 				207C03B11B3B88120067D14F /* NBBillViewController.m in Sources */,
 				207C03A31B3B7EDC0067D14F /* DZNSegmentedControl.m in Sources */,
 				207C03CA1B3B9E390067D14F /* NBDateFormatter.m in Sources */,
+				207C04001B4220240067D14F /* NBBaseBillHeader.m in Sources */,
 				207C03D41B3BA32E0067D14F /* NBBillItemTableViewCell.m in Sources */,
 				207C03A41B3B7EDC0067D14F /* UIScrollView+DZNSegmentedControl.m in Sources */,
+				207C03F31B3F4CE70067D14F /* NBBillHeaderFactorie.m in Sources */,
+				207C04071B4229C60067D14F /* NBNumberFormatter.m in Sources */,
 				204B475C1B3A382200DB81DF /* NBBill.m in Sources */,
 				207C03A91B3B7F8A0067D14F /* NBSegmentedDelegateDatasource.m in Sources */,
 				207C03D11B3BA3130067D14F /* NBBaseTableViewCell.m in Sources */,
@@ -737,7 +833,9 @@
 				204B475F1B3A39C200DB81DF /* NBSummary.m in Sources */,
 				207C03C61B3B9D830067D14F /* NBBillHeaderViewModel.m in Sources */,
 				207C03BD1B3B9BB30067D14F /* NBBaseView.m in Sources */,
+				207C040D1B423EDF0067D14F /* NBOverdueBillHeaderViewModel.m in Sources */,
 				207C03D91B3BA58C0067D14F /* NBBillItemViewModel.m in Sources */,
+				207C03E51B3F45B80067D14F /* NBOverdueBillHeaderView.m in Sources */,
 				204B47081B3A248100DB81DF /* main.m in Sources */,
 				207C03B51B3B8C140067D14F /* NBColors.m in Sources */,
 			);

@@ -34,8 +34,8 @@
     
     NSNumber *openDay = [NBDateFormatter dayOfDate:bill.summary.openDate];
     NSNumber *closeDay = [NBDateFormatter dayOfDate:bill.summary.closeDate];
-    NSString *openMonth = [NBDateFormatter monthForDate:bill.summary.openDate];
-    NSString *closeMonth = [NBDateFormatter monthForDate:bill.summary.closeDate];
+    NSString *openMonth = [NBDateFormatter mediumMonthForDate:bill.summary.openDate];
+    NSString *closeMonth = [NBDateFormatter mediumMonthForDate:bill.summary.closeDate];
     
     NSString *format = NSLocalizedString(@"DE %@ %@ ATÉ %@ %@", nil);
     NSString *title = [NSString stringWithFormat:format, openDay, openMonth, closeDay, closeMonth];

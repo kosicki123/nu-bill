@@ -10,6 +10,7 @@
 #import "NBBillItem.h"
 #import "NBDateFormatter.h"
 #import "NBColors.h"
+#import "NBNumberFormatter.h"
 
 @interface NBBillItemViewModel()
 
@@ -32,7 +33,7 @@
 #pragma mark - private methods
 
 - (void)buildPostDate {
-    NSString *postMonth = [NBDateFormatter monthForDate:self.billItem.postDate];
+    NSString *postMonth = [NBDateFormatter mediumMonthForDate:self.billItem.postDate];
     NSNumber *postDay = [NBDateFormatter dayOfDate:self.billItem.postDate];
     
     NSString *postDate = [NSString stringWithFormat:@"%@", postDay];
@@ -52,8 +53,8 @@
 }
 
 - (void)buildAmount {
-    float absoluteValue = fabs(self.billItem.amount.floatValue);
-    _amount = [NSString stringWithFormat:@"%.2f", absoluteValue];
+    NSNumber *absoluteValue = [NSNumber numberWithDouble:fabs([self.billItem.amount doubleValue])];
+    _amount = [NBNumberFormatter stringFromNumber:absoluteValue];
 }
 
 - (void)buildColorAmount {

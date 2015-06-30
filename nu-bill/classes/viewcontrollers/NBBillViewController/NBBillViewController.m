@@ -12,6 +12,7 @@
 #import "NBColors.h"
 #import "NBBillHeaderView.h"
 #import "NBBillItemTableViewCell.h"
+#import "NBBillHeaderFactorie.h"
 
 #import <BlocksKit/NSArray+BlocksKit.h>
 
@@ -36,6 +37,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tableView.tableHeaderView = [NBBillHeaderFactorie headerForBill:self.bill];
     [self customizeInterface];
     [self buildViewModels];
 }
@@ -68,6 +70,7 @@
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.backgroundColor = [NBColors grayColor];
     self.tableView.rowHeight = [NBBillItemTableViewCell height];
+    self.tableView.allowsSelection = NO;
     
     [NBBillItemTableViewCell registerXibOnTableView:self.tableView];
 }
