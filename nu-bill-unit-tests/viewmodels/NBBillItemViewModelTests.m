@@ -69,26 +69,26 @@
     NBBillItem *itemWithRoundedAmount = [NBModelConverter convertModelFromJSON:data
                                                                          class:[NBBillItem class]];
     NBBillItemViewModel *viewModel = [[NBBillItemViewModel alloc] initWithBillItem:itemWithRoundedAmount];
-    XCTAssertEqualObjects(@"1.642,00", viewModel.amount);
+    XCTAssertEqualObjects(@"16,42", viewModel.amount);
     
     data = @{@"amount" : @(1642.12)};
     NBBillItem *itemWithTwoDecimal = [NBModelConverter convertModelFromJSON:data
                                                                    class:[NBBillItem class]];
     viewModel = [[NBBillItemViewModel alloc] initWithBillItem:itemWithTwoDecimal];
-    XCTAssertEqualObjects(@"1.642,12", viewModel.amount);
+    XCTAssertEqualObjects(@"16,42", viewModel.amount);
     
     data = @{@"amount" : @(1642.911)};
     NBBillItem *itemWithMoreDecimals = [NBModelConverter convertModelFromJSON:data
                                                                         class:[NBBillItem class]];
     viewModel = [[NBBillItemViewModel alloc] initWithBillItem:itemWithMoreDecimals];
-    XCTAssertEqualObjects(@"1.642,91", viewModel.amount);
+    XCTAssertEqualObjects(@"16,43", viewModel.amount);
     XCTAssertEqualObjects([UIColor lightGrayColor], viewModel.colorAmount);
     
     data = @{@"amount" : @(-1642.91)};
     NBBillItem *itemWithNegativeAmount = [NBModelConverter convertModelFromJSON:data
                                                                           class:[NBBillItem class]];
     viewModel = [[NBBillItemViewModel alloc] initWithBillItem:itemWithNegativeAmount];
-    XCTAssertEqualObjects(@"1.642,91", viewModel.amount);
+    XCTAssertEqualObjects(@"16,43", viewModel.amount);
     XCTAssertEqualObjects([NBColors lightGreenColor], viewModel.colorAmount);
 }
 

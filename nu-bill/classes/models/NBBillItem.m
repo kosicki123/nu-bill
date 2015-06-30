@@ -29,4 +29,8 @@
     return [NSValueTransformer valueTransformerForName:MTLURLValueTransformerName];
 }
 
++ (NSValueTransformer *)amountJSONTransformer {
+    return [self hundredMultiplierJSONTransformer];
+}
+
 @end

@@ -36,11 +36,11 @@
     XCTAssertEqualObjects(summary.dueDate, [NBDateConverter dateFromString:@"2015-04-20"]);
     XCTAssertEqualObjects(summary.closeDate, [NBDateConverter dateFromString:@"2015-04-07"]);
     XCTAssertEqualObjects(summary.pastBalance, @(0));
-    XCTAssertEqualObjects(summary.totalBalance, @(38933));
+    XCTAssertEqualObjects(summary.totalBalance, @(389.33));
     XCTAssertEqualObjects(summary.interest, @(0));
-    XCTAssertEqualObjects(summary.totalCumulative, @(38933));
-    XCTAssertEqualObjects(summary.paid, @(38933));
-    XCTAssertEqualObjects(summary.minimumPayment, @(5840));
+    XCTAssertEqualObjects(summary.totalCumulative, @(389.33));
+    XCTAssertEqualObjects(summary.paid, @(389.33));
+    XCTAssertEqualObjects(summary.minimumPayment, @(58.40));
     XCTAssertEqualObjects(summary.openDate, [NBDateConverter dateFromString:@"2015-03-17"]);
 }
 

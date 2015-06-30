@@ -31,7 +31,7 @@
     
     XCTAssertNotNil(billItem, @"Bill Item should not be nil");
     XCTAssertEqualObjects(billItem.postDate, [NBDateConverter dateFromString:@"2015-05-09"]);
-    XCTAssertEqualObjects(billItem.amount, @(1642));
+    XCTAssertEqualObjects(billItem.amount, @(1642.0/100.0));
     XCTAssertEqualObjects(billItem.title, @"Al Fanous Restaurante");
     XCTAssertEqualObjects(billItem.index, @(0));
     XCTAssertEqualObjects(billItem.charges, @(1));

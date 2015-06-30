@@ -21,6 +21,14 @@
     }];
 }
 
++ (NSValueTransformer *)hundredMultiplierJSONTransformer {
+    return [MTLValueTransformer transformerUsingForwardBlock:^NSNumber *(NSString *value, BOOL *success, NSError *__autoreleasing *error) {
+        return [NSNumber numberWithDouble:value.doubleValue/100.f];
+    } reverseBlock:^NSString *(NSNumber *value, BOOL *success, NSError *__autoreleasing *error) {
+        return [NSString stringWithFormat:@"%.0f", value.doubleValue*100];
+    }];
+}
+
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     @throw [NSException exceptionWithName:NSInternalInconsistencyException
                                    reason:[NSString stringWithFormat:@"You must override %@ in a subclass", NSStringFromSelector(_cmd)]

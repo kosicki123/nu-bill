@@ -12,5 +12,6 @@
 @interface NBBaseModel : MTLModel <MTLJSONSerializing>
 
 + (NSValueTransformer *)dateValueTransformer;
++ (NSValueTransformer *)hundredMultiplierJSONTransformer;
 
 @end
