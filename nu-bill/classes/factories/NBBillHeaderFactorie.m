@@ -14,6 +14,7 @@
 
 #import "NBOpenBillHeaderViewModel.h"
 #import "NBClosedBillHeaderViewModel.h"
+#import "NBOverdueBillHeaderViewModel.h"
 
 @implementation NBBillHeaderFactorie
 
@@ -21,13 +22,16 @@
     NBBaseBillHeader *header = nil;
     NBBaseBillHeaderViewModel *viewModel = [[NBBaseBillHeaderViewModel alloc] initWithBill:bill];
     switch (bill.state) {
-        case NBBillStateOverdue:
+        case NBBillStateOverdue: {
             header = [NBOverdueBillHeaderView loadFromNib];
+            viewModel = [[NBOverdueBillHeaderViewModel alloc] initWithBill:bill];
             break;
-        case NBBillStateClosed:
+        }
+        case NBBillStateClosed: {
             header = [NBClosedBillHeaderView loadFromNib];
             viewModel = [[NBClosedBillHeaderViewModel alloc] initWithBill:bill];
             break;
+        }
         case NBBillStateOpen:{
             header = [NBOpenBillHeaderView loadFromNib];
             viewModel = [[NBOpenBillHeaderViewModel alloc] initWithBill:bill];

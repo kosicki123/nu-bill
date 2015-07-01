@@ -10,4 +10,6 @@
 
 @interface NBOverdueBillHeaderViewModel : NBBaseBillHeaderViewModel
 
+@property (nonatomic, readonly, copy) NSString *totalPaied;
+
 @end

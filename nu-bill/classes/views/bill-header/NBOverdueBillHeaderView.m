@@ -7,22 +7,31 @@
 //
 
 #import "NBOverdueBillHeaderView.h"
+#import "NBOverdueBillHeaderViewModel.h"
 
 @interface NBOverdueBillHeaderView()
 
-@property (weak, nonatomic) IBOutlet UIView *viewTotalReceived;
-@property (weak, nonatomic) IBOutlet UILabel *lbPaimentRecevied;
-@property (weak, nonatomic) IBOutlet UILabel *lbTotalReceived;
+@property (weak, nonatomic) IBOutlet UIView *viewTotalPaied;
+@property (weak, nonatomic) IBOutlet UILabel *lbPaymentPaied;
+@property (weak, nonatomic) IBOutlet UILabel *lbTotalPaied;
 
 @end
 
 @implementation NBOverdueBillHeaderView
 
-- (void)setViewModel:(NBBaseBillHeaderViewModel *)viewModel {
+- (void)setViewModel:(NBOverdueBillHeaderViewModel *)viewModel {
     [super setViewModel:viewModel];
     
-    self.lbPaimentRecevied.textColor = self.viewModel.backgroundColor;
-    self.lbTotalReceived.textColor = self.viewModel.backgroundColor;
+    if (!viewModel.totalPaied) {
+        self.frame = self.viewTotalBalance.frame;
+        self.viewTotalPaied.hidden = YES;
+        
+        return;
+    }
+    
+    self.lbTotalPaied.text = viewModel.totalPaied;
+    self.lbPaymentPaied.textColor = self.viewModel.backgroundColor;
+    self.lbTotalPaied.textColor = self.viewModel.backgroundColor;
 }
 
 @end

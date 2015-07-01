@@ -58,13 +58,13 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="lbDueDay" destination="GUv-DP-etu" id="zBF-ra-C2B"/>
-                <outlet property="lbPaimentRecevied" destination="NLr-kH-r4d" id="hXA-JK-912"/>
+                <outlet property="lbPaymentPaied" destination="NLr-kH-r4d" id="3Pc-ug-O7S"/>
                 <outlet property="lbTotalBalance" destination="AK7-1k-FEQ" id="gxR-Gm-YKM"/>
-                <outlet property="lbTotalReceived" destination="HwB-Qg-uxZ" id="nlo-YX-m2J"/>
+                <outlet property="lbTotalPaied" destination="HwB-Qg-uxZ" id="1jA-Z0-ljc"/>
                 <outlet property="viewTotalBalance" destination="tde-fn-mFC" id="4jo-gz-FKr"/>
-                <outlet property="viewTotalReceived" destination="PTO-71-VZe" id="Ovj-P2-aPa"/>
+                <outlet property="viewTotalPaied" destination="PTO-71-VZe" id="NeG-aa-LND"/>
             </connections>
-            <point key="canvasLocation" x="216" y="434"/>
+            <point key="canvasLocation" x="62" y="455"/>
         </view>
     </objects>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
