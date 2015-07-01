@@ -45,8 +45,6 @@
 		207C03D61B3BA3380067D14F /* NBBillItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207C03D51B3BA3380067D14F /* NBBillItemTableViewCell.xib */; };
 		207C03D91B3BA58C0067D14F /* NBBillItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03D81B3BA58C0067D14F /* NBBillItemViewModel.m */; };
 		207C03DC1B3BAEB60067D14F /* bill_new.json in Resources */ = {isa = PBXBuildFile; fileRef = 207C03DB1B3BAEB60067D14F /* bill_new.json */; };
-		207C03DF1B3BB0280067D14F /* NBBillHeaderViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03DE1B3BB0280067D14F /* NBBillHeaderViewModelTests.m */; };
-		207C03E11B3BB1810067D14F /* NBBillItemViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03E01B3BB1810067D14F /* NBBillItemViewModelTests.m */; };
 		207C03E51B3F45B80067D14F /* NBOverdueBillHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03E41B3F45B80067D14F /* NBOverdueBillHeaderView.m */; };
 		207C03E71B3F45C40067D14F /* NBOverdueBillHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207C03E61B3F45C40067D14F /* NBOverdueBillHeaderView.xib */; };
 		207C03EE1B3F499E0067D14F /* NBClosedBillHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C03ED1B3F499E0067D14F /* NBClosedBillHeaderView.m */; };
@@ -62,6 +60,8 @@
 		207C040A1B422FEF0067D14F /* NBOpenBillHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C04091B422FEF0067D14F /* NBOpenBillHeaderViewModel.m */; };
 		207C040D1B423EDF0067D14F /* NBOverdueBillHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C040C1B423EDF0067D14F /* NBOverdueBillHeaderViewModel.m */; };
 		207C04101B42403F0067D14F /* NBClosedBillHeaderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 207C040F1B42403F0067D14F /* NBClosedBillHeaderViewModel.m */; };
+		209681021B444596008DDB5D /* NBBillHeaderViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 209681001B444596008DDB5D /* NBBillHeaderViewModelTests.m */; };
+		209681031B444596008DDB5D /* NBBillItemViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 209681011B444596008DDB5D /* NBBillItemViewModelTests.m */; };
 		61FEE8D623BB02E3E49A8CC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D88B3038653F0278B40230 /* libPods.a */; };
 		8EC86C028876953155D786F8 /* libPods-nu-bill-unit-tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */; };
 		F4E1936C1B3B460B005C393B /* NBNuBankClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E1936B1B3B460B005C393B /* NBNuBankClientTests.m */; };
@@ -147,8 +147,6 @@
 		207C03D71B3BA58C0067D14F /* NBBillItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBBillItemViewModel.h; sourceTree = "<group>"; };
 		207C03D81B3BA58C0067D14F /* NBBillItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillItemViewModel.m; sourceTree = "<group>"; };
 		207C03DB1B3BAEB60067D14F /* bill_new.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bill_new.json; sourceTree = "<group>"; };
-		207C03DE1B3BB0280067D14F /* NBBillHeaderViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillHeaderViewModelTests.m; sourceTree = "<group>"; };
-		207C03E01B3BB1810067D14F /* NBBillItemViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillItemViewModelTests.m; sourceTree = "<group>"; };
 		207C03E31B3F45B80067D14F /* NBOverdueBillHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBOverdueBillHeaderView.h; sourceTree = "<group>"; };
 		207C03E41B3F45B80067D14F /* NBOverdueBillHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBOverdueBillHeaderView.m; sourceTree = "<group>"; };
 		207C03E61B3F45C40067D14F /* NBOverdueBillHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBOverdueBillHeaderView.xib; sourceTree = "<group>"; };
@@ -175,6 +173,8 @@
 		207C040C1B423EDF0067D14F /* NBOverdueBillHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBOverdueBillHeaderViewModel.m; sourceTree = "<group>"; };
 		207C040E1B42403F0067D14F /* NBClosedBillHeaderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBClosedBillHeaderViewModel.h; sourceTree = "<group>"; };
 		207C040F1B42403F0067D14F /* NBClosedBillHeaderViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBClosedBillHeaderViewModel.m; sourceTree = "<group>"; };
+		209681001B444596008DDB5D /* NBBillHeaderViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillHeaderViewModelTests.m; sourceTree = "<group>"; };
+		209681011B444596008DDB5D /* NBBillItemViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillItemViewModelTests.m; sourceTree = "<group>"; };
 		34B329EAF08D6BDF239B3070 /* Pods-nu-bill-unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nu-bill-unit-tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nu-bill-unit-tests/Pods-nu-bill-unit-tests.release.xcconfig"; sourceTree = "<group>"; };
 		48D88B3038653F0278B40230 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nu-bill-unit-tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -347,7 +347,7 @@
 			children = (
 				207C03911B3A6AF10067D14F /* controllers */,
 				204B474F1B3A315400DB81DF /* models */,
-				207C03DD1B3BB0060067D14F /* viewmodels */,
+				209680FF1B444596008DDB5D /* viewmodels */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -553,16 +553,6 @@
 			path = fixtures;
 			sourceTree = "<group>";
 		};
-		207C03DD1B3BB0060067D14F /* viewmodels */ = {
-			isa = PBXGroup;
-			children = (
-				207C03DE1B3BB0280067D14F /* NBBillHeaderViewModelTests.m */,
-				207C03E01B3BB1810067D14F /* NBBillItemViewModelTests.m */,
-			);
-			name = viewmodels;
-			path = "nu-bill-unit-tests/viewmodels";
-			sourceTree = SOURCE_ROOT;
-		};
 		207C03E21B3F45740067D14F /* bill-header */ = {
 			isa = PBXGroup;
 			children = (
@@ -597,6 +587,15 @@
 				207C04091B422FEF0067D14F /* NBOpenBillHeaderViewModel.m */,
 			);
 			path = "bill-header";
+			sourceTree = "<group>";
+		};
+		209680FF1B444596008DDB5D /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				209681001B444596008DDB5D /* NBBillHeaderViewModelTests.m */,
+				209681011B444596008DDB5D /* NBBillItemViewModelTests.m */,
+			);
+			path = viewmodels;
 			sourceTree = "<group>";
 		};
 		4F33DFA5FF1C4853144CB2CD /* Pods */ = {
@@ -851,9 +850,9 @@
 				207C03771B3A50DA0067D14F /* NBBillItemTests.m in Sources */,
 				207C03901B3A5F0C0067D14F /* NBBillResultTests.m in Sources */,
 				207C03731B3A47D80067D14F /* NBBillTests.m in Sources */,
-				207C03DF1B3BB0280067D14F /* NBBillHeaderViewModelTests.m in Sources */,
+				209681021B444596008DDB5D /* NBBillHeaderViewModelTests.m in Sources */,
 				207C03931B3A6AFB0067D14F /* NBBillsControllerTests.m in Sources */,
-				207C03E11B3BB1810067D14F /* NBBillItemViewModelTests.m in Sources */,
+				209681031B444596008DDB5D /* NBBillItemViewModelTests.m in Sources */,
 				204B47521B3A316600DB81DF /* NBModelConverterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
