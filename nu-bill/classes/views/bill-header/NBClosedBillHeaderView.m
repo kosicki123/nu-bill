@@ -17,7 +17,6 @@
 @end
 
 @implementation NBClosedBillHeaderView
-@synthesize viewModel = _viewModel;
 
 - (void)setViewModel:(NBClosedBillHeaderViewModel *)viewModel {
     [super setViewModel:viewModel];

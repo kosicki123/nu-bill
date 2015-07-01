@@ -19,6 +19,8 @@
 @implementation NBBillHeaderFactorie
 
 + (NBBaseBillHeader *)headerForBill:(NBBill *)bill {
+    NSParameterAssert(bill);
+    
     NBBaseBillHeader *header = nil;
     NBBaseBillHeaderViewModel *viewModel = [[NBBaseBillHeaderViewModel alloc] initWithBill:bill];
     switch (bill.state) {
@@ -37,9 +39,10 @@
             viewModel = [[NBOpenBillHeaderViewModel alloc] initWithBill:bill];
             break;
         }
-        case NBBillStateFuture:
+        case NBBillStateFuture: {
             header = [NBFutureBillHeaderView loadFromNib];
             break;
+        }
     }
     
     header.viewModel = viewModel;
