@@ -13,6 +13,8 @@
 @implementation NBBillColorFactorie
 
 + (UIColor *)colorForBill:(NBBill *)bill {
+    NSParameterAssert(bill);
+    
     switch (bill.state) {
         case NBBillStateClosed:
             return [NBColors closedBillColor];

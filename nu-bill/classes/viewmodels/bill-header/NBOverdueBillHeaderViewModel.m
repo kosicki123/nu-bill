@@ -26,7 +26,8 @@
         return;
     }
     
-    _totalPaied = [NBNumberFormatter currencyStringFromNumber:bill.summary.paid];
+    NSNumber *absolutePaied = [NSNumber numberWithDouble:fabs([bill.summary.paid doubleValue])];
+    _totalPaied = [NBNumberFormatter currencyStringFromNumber:absolutePaied];
 }
 
 @end

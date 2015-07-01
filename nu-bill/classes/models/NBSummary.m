@@ -34,7 +34,7 @@
     return [self dateValueTransformer];
 }
 
-+ (NSValueTransformer *)postBalanceJSONTransformer {
++ (NSValueTransformer *)pastBalanceJSONTransformer {
     return [self hundredMultiplierJSONTransformer];
 }
 
@@ -51,6 +51,10 @@
 }
 
 + (NSValueTransformer *)minimumPaymentJSONTransformer {
+    return [self hundredMultiplierJSONTransformer];
+}
+
++ (NSValueTransformer *)interestJSONTransformer {
     return [self hundredMultiplierJSONTransformer];
 }
 
