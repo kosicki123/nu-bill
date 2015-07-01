@@ -37,6 +37,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tableView.accessibilityLabel = @"bills";
+    self.tableView.isAccessibilityElement = YES;
     self.tableView.tableHeaderView = [NBBillHeaderFactorie headerForBill:self.bill];
     [self customizeInterface];
     [self buildViewModels];

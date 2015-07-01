@@ -15,3 +15,8 @@ target "nu-bill-unit-tests" do
     pod 'OHHTTPStubs', '~> 4.0'
     pod 'OCMock', '~> 3.1'
 end
+
+target 'nu-bill-acceptance-tests', :exclusive => true do
+  pod 'KIF', '~> 3.0', :configurations => ['Debug']
+  pod 'FBSnapshotTestCase/Core'
+end

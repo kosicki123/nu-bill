@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20184F0C1B445E3E0038358C /* NBBillControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20184F0B1B445E3E0038358C /* NBBillControllerTests.m */; };
+		20184F101B445EC90038358C /* KIFUITestActor+NBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 20184F0F1B445EC90038358C /* KIFUITestActor+NBAdditions.m */; };
+		20184F1E1B446EC60038358C /* base01.png in Resources */ = {isa = PBXBuildFile; fileRef = 20184F1A1B446EC60038358C /* base01.png */; };
+		20184F1F1B446EC60038358C /* base02.png in Resources */ = {isa = PBXBuildFile; fileRef = 20184F1B1B446EC60038358C /* base02.png */; };
+		20184F201B446EC60038358C /* base03.png in Resources */ = {isa = PBXBuildFile; fileRef = 20184F1C1B446EC60038358C /* base03.png */; };
+		20184F211B446EC60038358C /* base04.png in Resources */ = {isa = PBXBuildFile; fileRef = 20184F1D1B446EC60038358C /* base04.png */; };
+		20184F231B446F5E0038358C /* NBBillControllerTests.m, line 31, tab01.png in Resources */ = {isa = PBXBuildFile; fileRef = 20184F221B446F5E0038358C /* NBBillControllerTests.m, line 31, tab01.png */; };
+		20184F251B446FF80038358C /* NBBillControllerTests.m, line 44, tab02.png in Resources */ = {isa = PBXBuildFile; fileRef = 20184F241B446FF80038358C /* NBBillControllerTests.m, line 44, tab02.png */; };
+		20184F271B4470920038358C /* NBBillControllerTests.m, line 56, tab03.png in Resources */ = {isa = PBXBuildFile; fileRef = 20184F261B4470920038358C /* NBBillControllerTests.m, line 56, tab03.png */; };
+		20184F291B4470AA0038358C /* NBBillControllerTests.m, line 68, tab04.png in Resources */ = {isa = PBXBuildFile; fileRef = 20184F281B4470AA0038358C /* NBBillControllerTests.m, line 68, tab04.png */; };
 		204B47081B3A248100DB81DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 204B47071B3A248100DB81DF /* main.m */; };
 		204B47131B3A248100DB81DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204B47121B3A248100DB81DF /* Images.xcassets */; };
 		204B472F1B3A2BF800DB81DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 204B472E1B3A2BF800DB81DF /* AppDelegate.m */; };
@@ -68,10 +78,18 @@
 		2096810D1B445415008DDB5D /* NBClosedBillHeaderViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2096810C1B445415008DDB5D /* NBClosedBillHeaderViewModelTests.m */; };
 		61FEE8D623BB02E3E49A8CC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D88B3038653F0278B40230 /* libPods.a */; };
 		8EC86C028876953155D786F8 /* libPods-nu-bill-unit-tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */; };
+		A3503017D8C70BD3F595BB4E /* libPods-nu-bill-acceptance-tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C9C0CC2AB71C133E954286 /* libPods-nu-bill-acceptance-tests.a */; };
 		F4E1936C1B3B460B005C393B /* NBNuBankClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E1936B1B3B460B005C393B /* NBNuBankClientTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		20184F061B445D890038358C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 204B46FA1B3A248100DB81DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204B47011B3A248100DB81DF;
+			remoteInfo = "nu-bill";
+		};
 		204B47491B3A302000DB81DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 204B46FA1B3A248100DB81DF /* Project object */;
@@ -82,6 +100,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20184F001B445D890038358C /* nu-bill-acceptance-tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nu-bill-acceptance-tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20184F031B445D890038358C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20184F0B1B445E3E0038358C /* NBBillControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBBillControllerTests.m; sourceTree = "<group>"; };
+		20184F0E1B445EC90038358C /* KIFUITestActor+NBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFUITestActor+NBAdditions.h"; sourceTree = "<group>"; };
+		20184F0F1B445EC90038358C /* KIFUITestActor+NBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFUITestActor+NBAdditions.m"; sourceTree = "<group>"; };
+		20184F1A1B446EC60038358C /* base01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base01.png; sourceTree = "<group>"; };
+		20184F1B1B446EC60038358C /* base02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base02.png; sourceTree = "<group>"; };
+		20184F1C1B446EC60038358C /* base03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base03.png; sourceTree = "<group>"; };
+		20184F1D1B446EC60038358C /* base04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base04.png; sourceTree = "<group>"; };
+		20184F221B446F5E0038358C /* NBBillControllerTests.m, line 31, tab01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NBBillControllerTests.m, line 31, tab01.png"; sourceTree = "<group>"; };
+		20184F241B446FF80038358C /* NBBillControllerTests.m, line 44, tab02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NBBillControllerTests.m, line 44, tab02.png"; sourceTree = "<group>"; };
+		20184F261B4470920038358C /* NBBillControllerTests.m, line 56, tab03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NBBillControllerTests.m, line 56, tab03.png"; sourceTree = "<group>"; };
+		20184F281B4470AA0038358C /* NBBillControllerTests.m, line 68, tab04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NBBillControllerTests.m, line 68, tab04.png"; sourceTree = "<group>"; };
 		204B47021B3A248100DB81DF /* nu-bill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nu-bill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		204B47061B3A248100DB81DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		204B47071B3A248100DB81DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -185,14 +216,25 @@
 		2096810C1B445415008DDB5D /* NBClosedBillHeaderViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBClosedBillHeaderViewModelTests.m; sourceTree = "<group>"; };
 		34B329EAF08D6BDF239B3070 /* Pods-nu-bill-unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nu-bill-unit-tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nu-bill-unit-tests/Pods-nu-bill-unit-tests.release.xcconfig"; sourceTree = "<group>"; };
 		48D88B3038653F0278B40230 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9348CD4159A5E6FE120833 /* Pods-nu-bill-acceptance-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nu-bill-acceptance-tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nu-bill-acceptance-tests/Pods-nu-bill-acceptance-tests.debug.xcconfig"; sourceTree = "<group>"; };
+		843FBBC8C8207E94E2F22649 /* Pods-nu-bill-acceptance-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nu-bill-acceptance-tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nu-bill-acceptance-tests/Pods-nu-bill-acceptance-tests.release.xcconfig"; sourceTree = "<group>"; };
 		BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nu-bill-unit-tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CF16325BA2831EC7C6F0A5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D7556958F0EE91761EBA4BD4 /* Pods-nu-bill-unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nu-bill-unit-tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nu-bill-unit-tests/Pods-nu-bill-unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0C9C0CC2AB71C133E954286 /* libPods-nu-bill-acceptance-tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nu-bill-acceptance-tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F22746475C03823D924EA7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F4E1936B1B3B460B005C393B /* NBNuBankClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNuBankClientTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		20184EFD1B445D890038358C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3503017D8C70BD3F595BB4E /* libPods-nu-bill-acceptance-tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		204B46FF1B3A248100DB81DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,11 +254,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20184F011B445D890038358C /* nu-bill-acceptance-tests */ = {
+			isa = PBXGroup;
+			children = (
+				20184F111B4461750038358C /* screenshots */,
+				20184F0D1B445EBD0038358C /* helpers */,
+				20184F0B1B445E3E0038358C /* NBBillControllerTests.m */,
+				20184F021B445D890038358C /* Supporting Files */,
+			);
+			path = "nu-bill-acceptance-tests";
+			sourceTree = "<group>";
+		};
+		20184F021B445D890038358C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20184F031B445D890038358C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20184F0D1B445EBD0038358C /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				20184F0E1B445EC90038358C /* KIFUITestActor+NBAdditions.h */,
+				20184F0F1B445EC90038358C /* KIFUITestActor+NBAdditions.m */,
+			);
+			name = helpers;
+			sourceTree = "<group>";
+		};
+		20184F111B4461750038358C /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				20184F221B446F5E0038358C /* NBBillControllerTests.m, line 31, tab01.png */,
+				20184F241B446FF80038358C /* NBBillControllerTests.m, line 44, tab02.png */,
+				20184F261B4470920038358C /* NBBillControllerTests.m, line 56, tab03.png */,
+				20184F281B4470AA0038358C /* NBBillControllerTests.m, line 68, tab04.png */,
+				20184F1A1B446EC60038358C /* base01.png */,
+				20184F1B1B446EC60038358C /* base02.png */,
+				20184F1C1B446EC60038358C /* base03.png */,
+				20184F1D1B446EC60038358C /* base04.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		204B46F91B3A248100DB81DF = {
 			isa = PBXGroup;
 			children = (
 				204B47041B3A248100DB81DF /* nu-bill */,
 				204B47441B3A302000DB81DF /* nu-bill-unit-tests */,
+				20184F011B445D890038358C /* nu-bill-acceptance-tests */,
 				204B47031B3A248100DB81DF /* Products */,
 				4F33DFA5FF1C4853144CB2CD /* Pods */,
 				C9F8344EA0F573450D050AD5 /* Frameworks */,
@@ -228,6 +314,7 @@
 			children = (
 				204B47021B3A248100DB81DF /* nu-bill.app */,
 				204B47431B3A301F00DB81DF /* nu-bill-unit-tests.xctest */,
+				20184F001B445D890038358C /* nu-bill-acceptance-tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -633,6 +720,8 @@
 				C4CF16325BA2831EC7C6F0A5 /* Pods.release.xcconfig */,
 				D7556958F0EE91761EBA4BD4 /* Pods-nu-bill-unit-tests.debug.xcconfig */,
 				34B329EAF08D6BDF239B3070 /* Pods-nu-bill-unit-tests.release.xcconfig */,
+				4B9348CD4159A5E6FE120833 /* Pods-nu-bill-acceptance-tests.debug.xcconfig */,
+				843FBBC8C8207E94E2F22649 /* Pods-nu-bill-acceptance-tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -642,6 +731,7 @@
 			children = (
 				48D88B3038653F0278B40230 /* libPods.a */,
 				BE63E476F37758D171D4BF40 /* libPods-nu-bill-unit-tests.a */,
+				E0C9C0CC2AB71C133E954286 /* libPods-nu-bill-acceptance-tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -657,6 +747,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		20184EFF1B445D890038358C /* nu-bill-acceptance-tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20184F0A1B445D890038358C /* Build configuration list for PBXNativeTarget "nu-bill-acceptance-tests" */;
+			buildPhases = (
+				C2D42067A6443F61811AAE9F /* Check Pods Manifest.lock */,
+				20184EFC1B445D890038358C /* Sources */,
+				20184EFD1B445D890038358C /* Frameworks */,
+				20184EFE1B445D890038358C /* Resources */,
+				BFE3ED76F86878D186FD0D43 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20184F071B445D890038358C /* PBXTargetDependency */,
+			);
+			name = "nu-bill-acceptance-tests";
+			productName = "nu-bill-acceptance-tests";
+			productReference = 20184F001B445D890038358C /* nu-bill-acceptance-tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		204B47011B3A248100DB81DF /* nu-bill */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 204B47251B3A248100DB81DF /* Build configuration list for PBXNativeTarget "nu-bill" */;
@@ -706,6 +816,10 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = nubank;
 				TargetAttributes = {
+					20184EFF1B445D890038358C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 204B47011B3A248100DB81DF;
+					};
 					204B47011B3A248100DB81DF = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
@@ -730,11 +844,27 @@
 			targets = (
 				204B47011B3A248100DB81DF /* nu-bill */,
 				204B47421B3A301F00DB81DF /* nu-bill-unit-tests */,
+				20184EFF1B445D890038358C /* nu-bill-acceptance-tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		20184EFE1B445D890038358C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20184F231B446F5E0038358C /* NBBillControllerTests.m, line 31, tab01.png in Resources */,
+				20184F211B446EC60038358C /* base04.png in Resources */,
+				20184F201B446EC60038358C /* base03.png in Resources */,
+				20184F1F1B446EC60038358C /* base02.png in Resources */,
+				20184F291B4470AA0038358C /* NBBillControllerTests.m, line 68, tab04.png in Resources */,
+				20184F251B446FF80038358C /* NBBillControllerTests.m, line 44, tab02.png in Resources */,
+				20184F1E1B446EC60038358C /* base01.png in Resources */,
+				20184F271B4470920038358C /* NBBillControllerTests.m, line 56, tab03.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		204B47001B3A248100DB81DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -805,6 +935,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		BFE3ED76F86878D186FD0D43 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nu-bill-acceptance-tests/Pods-nu-bill-acceptance-tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D42067A6443F61811AAE9F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		F8821A339F3B2C53FFFB0556 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -823,6 +983,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		20184EFC1B445D890038358C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20184F101B445EC90038358C /* KIFUITestActor+NBAdditions.m in Sources */,
+				20184F0C1B445E3E0038358C /* NBBillControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		204B46FE1B3A248100DB81DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -892,6 +1061,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		20184F071B445D890038358C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204B47011B3A248100DB81DF /* nu-bill */;
+			targetProxy = 20184F061B445D890038358C /* PBXContainerItemProxy */;
+		};
 		204B474A1B3A302000DB81DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 204B47011B3A248100DB81DF /* nu-bill */;
@@ -900,6 +1074,44 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		20184F081B445D890038358C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B9348CD4159A5E6FE120833 /* Pods-nu-bill-acceptance-tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nu-bill-acceptance-tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nu-bill.app/nu-bill";
+			};
+			name = Debug;
+		};
+		20184F091B445D890038358C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843FBBC8C8207E94E2F22649 /* Pods-nu-bill-acceptance-tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nu-bill-acceptance-tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nu-bill.app/nu-bill";
+			};
+			name = Release;
+		};
 		204B47231B3A248100DB81DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1041,6 +1253,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		20184F0A1B445D890038358C /* Build configuration list for PBXNativeTarget "nu-bill-acceptance-tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20184F081B445D890038358C /* Debug */,
+				20184F091B445D890038358C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		204B46FD1B3A248100DB81DF /* Build configuration list for PBXProject "nu-bill" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

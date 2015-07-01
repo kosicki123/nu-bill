@@ -36,7 +36,11 @@ PODS:
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - DCIntrospect-ARC (0.0.8)
+  - FBSnapshotTestCase/Core (2.0.2)
   - ISO8601DateFormatter (0.7)
+  - KIF (3.2.3):
+    - KIF/XCTest
+  - KIF/XCTest (3.2.3)
   - Mantle (2.0.2):
     - Mantle/extobjc
   - Mantle/extobjc (2.0.2)
@@ -48,7 +52,9 @@ DEPENDENCIES:
   - AFNetworking (~> 2.5)
   - BlocksKit (~> 2.2)
   - DCIntrospect-ARC (~> 0.0)
+  - FBSnapshotTestCase/Core
   - ISO8601DateFormatter (~> 0.7)
+  - KIF (~> 3.0)
   - Mantle (~> 2.0)
   - MBProgressHUD (~> 0.9)
   - OCMock (~> 3.1)
@@ -58,7 +64,9 @@ SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   DCIntrospect-ARC: 68a97cc2e99420b21bfcd66865b5376701f8e7f5
+  FBSnapshotTestCase: fd500d5b282c4ec60215d26d0b58b0cf271dd0d6
   ISO8601DateFormatter: ab926648eebe497f4d167c0fd083992f959f1274
+  KIF: a94bffe9c97e449e44f8fa481c53243d21309e1e
   Mantle: 967fd31ea0220890b2e76589198996b534bb3fb1
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
